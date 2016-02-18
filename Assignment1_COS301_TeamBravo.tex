@@ -164,9 +164,31 @@ Reseacher papers tend to be fairly lengthy, and if completed by only one author,
 \section{Architecture Requirements}
 
 \subsection{Access channel requirements}
-
+The different access channels for the system will be as follows:
+\subsubsection{Web Application}
+The system can be used via a web application that uses RESTful web services and bootstrap technology. The system will be fully supported on the following web browsers:
+\begin{itemize}
+	\item Chrome 7.0.517 and up
+	\item Firefox 3.6 and up
+	\item Safari 4 and up
+	\item Edge
+\end{itemize}
+Bootstrap will be used so that the web application will also be accessible by mobile web browsers that support HTML5 and JavaScript technology.
+\subsubsection{Mobile Application}
+The system will also be accessible via a mobile application and will be operational on the following mobile operating systems:
+\begin{itemize}
+	\item Android 4.0 (Ice Cream Sandwich) and up.
+\end{itemize}
 \subsection{Quality requirements}
-
+\begin{itemize}
+	\item Security - The system shall identify all of its client applications before allowing them access to those enities. Possible measurement methods: Success rate in authentication, percentage of successful attacks, encryption level and probability/time/resources needed to attack the system.
+	\item Usability - The degree of ease of use and training needed for end users. Possible measurement methods: Time it took a user to find a report (search functionality), percentage of deadlines met (notification functionality) and time it took a user to perform certain tasks.
+	\item Auditability - The degree to which transactions can be traced. Possible measurement methods: The number and precision of logs generated in a period of time (metadata accessed/deleted/added).
+	\item Portability - Measure ability of the system to run under different computing environments. Possible measurement methods: Number of targeted software environments (ie different browsers and operating systems) and proportion of platform specific functionality.
+	\item Maintainability - Measures ability to make changes quickly and cost effectively. Possible measurement methods: Degree of complexity to make changes to the format of the metadata and mean time to add or change certain functionalities (ie new report types and new types of users).
+	\item Availability - Percentage of time that the system is up and running correctly. Possible measurement methods: Length of time between failures and length of time needed to resume operation after a failure.
+	\item Performance - Possible measurement methods: How well the system perform under high workload and number of events processed/denied in some interval of time.
+\end{itemize}
 \subsection{Integration requirements}
 
 \subsection{Architecture constraints}
