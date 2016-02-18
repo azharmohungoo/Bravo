@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  17 FEB 2016 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  17 FEB 2016 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,7 +280,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 \openout4 = `Assignment1_COS301_TeamBravo.out'.
 
 
-<./University_of_Pretoria_Logo.PNG, id=44, 900.36375pt x 269.50688pt>
+<./University_of_Pretoria_Logo.PNG, id=68, 900.36375pt x 269.50688pt>
 File: ./University_of_Pretoria_Logo.PNG Graphic file (type png)
 
 <use ./University_of_Pretoria_Logo.PNG>
@@ -316,23 +316,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./Assignment1_COS301_TeamBravo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
-
-
-Package rerunfilecheck Warning: File `Assignment1_COS301_TeamBravo.out' has cha
-nged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Assignment1_COS301_TeamBravo.out':
-(rerunfilecheck)             Before: 27C856DDBF07D9603314D9826BD2ABE4;639
-(rerunfilecheck)             After:  307D6FEE177024C60D025472B86B1AE4;1064.
+Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: 307D6FEE177024C60D025472B86B1AE4;1064.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 5292 strings out of 493089
- 79342 string characters out of 6134843
- 164821 words of memory out of 5000000
- 8723 multiletter control sequences out of 15000+600000
+ 5298 strings out of 493089
+ 79445 string characters out of 6134843
+ 164820 words of memory out of 5000000
+ 8729 multiletter control sequences out of 15000+600000
  9443 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,5n,28p,311b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -341,10 +334,10 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (5 pages, 272122 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (5 pages, 272576 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
