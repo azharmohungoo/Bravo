@@ -13,7 +13,7 @@
 \usepackage{verbatim}
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
+    linkcolor=black,
     filecolor=magenta,      
     urlcolor=cyan,
 }
@@ -21,7 +21,7 @@
 
 % define the title
 \author{Team Bravo}
-\title{ Assignment 1 Requirements and Application Design phase}
+\title{Assignment 1 Software Requirements Specification and Technology Neutral Process Design}
 \begin{document}
 \setlength{\parskip}{6pt}
 
@@ -30,26 +30,34 @@
 
 \begin{center}
 % Upper part of the page       
-\includegraphics[width=1\textwidth]{../Images/University_of_Pretoria_Logo.PNG}\\[0.4cm]    
-\textsc{\LARGE Department of Computer Science}\\[1.5cm]
-\textsc{\Large COS 301 - Mini Project}\\[0.5cm]
+\includegraphics[width=1\textwidth]{../Images/University_of_Pretoria_Logo.PNG}\\[0.5cm]    
+\textsc{\LARGE Department of Computer Science}\\[0.5cm]
+\textsc{\Large COS 301}\\[0.5cm]
+\textsc{\Large Mini Project Assignment 1}\\[0.75cm]
 % Title
 \HRule \\[0.4cm]
-{ \huge \bfseries Assignment 1 \\ Requirements and Application Design}\\[0.4cm]
-\HRule \\[0.4cm]
+{ \huge \bfseries Software Requirements Specification \\ [0.1cm] 
+	and \\ [0.5cm] Technology Neutral Process Design}\\[0.5cm]
+\HRule \\[1cm]
+
 % Author and supervisor
+\textsc{\Large Team Bravo}\\[1cm]
+
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
-\emph{Author:}\\
+\emph{Student:}\\[0.75cm]
 Daniel {King}
 \end{flushleft}
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
-\emph{Student number:} \\
+\emph{Student number:} \\[0.75cm]
 u13307607
 \end{flushright}
 \end{minipage}
+
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 \emph{} \\
@@ -62,6 +70,8 @@ Azhar {Mohungoo }
 u12239799
 \end{flushright}
 \end{minipage}
+
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 Andreas {du Preez}
@@ -73,6 +83,7 @@ Andreas {du Preez}
 u12207871 
 \end{flushright}
 \end{minipage}
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 Banele {Nxumalo}
@@ -84,6 +95,8 @@ Banele {Nxumalo}
 u12201911 
 \end{flushright}
 \end{minipage}
+
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 Frederic {Ehlers}
@@ -95,6 +108,8 @@ Frederic {Ehlers}
 u11061112  
 \end{flushright}
 \end{minipage}
+
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 Diana {Obo}
@@ -106,6 +121,8 @@ Diana {Obo}
 u13134885
 \end{flushright}
 \end{minipage}
+
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 Bilal {Muhammad}
@@ -119,23 +136,22 @@ u13080335
 \end{minipage}
 \vfill
 
-{\large \today}
 \end{center}
 \end{titlepage}
-\footnotesize
-\normalsize
 
 \renewcommand{\thesection}{\arabic{section}}
 \newpage
-\begin{center}
-\textsc{\LARGE Requirements Specification}\\[1.5cm]
+
+\tableofcontents 
+
+\begin{center} 
+\textsc{} \\[3cm]
 \textsc{\Large Bravo github repository link}\\[0.5cm]
-For further references see \href{https://github.com/ish1993/Bravo}{gitHub}.
-\today
+For further references, please click on this \href{https://github.com/ish1993/Bravo}{link}.
 \end{center}
 
-
 \newpage
+
 \section{Introduction}
 
 This document aims to specify the functional and non-functional requirements of a document archiving system, as specified by Ms Vreda Pieterse of the Computer Science Department.
@@ -148,11 +164,11 @@ We intend to create a system that will allow authors and their co-authors to wor
 
 \begin{itemize}
 	\item Keep track of research papers.
-	\item View meta data of research papers. 
+	\item View meta-data of research papers. 
 	\item Allow multiple authors to collaborate on the same research paper. 
-	\item Different levels of authority, i.e. Admin, Author, User.
-	\item View and edit the details of a text based profile of differents researchers. 
-	\item Implemented as a Website and Android application.
+	\item Different levels of authority, i.e. Admin, (Co)Author, User.
+	\item View and edit the details, of a text based profile, of different researchers. 
+	\item Implemention as a website and an android application.
 \end{itemize} 
 
 \section{Background}
@@ -203,21 +219,34 @@ The system will also be accessible via a mobile application and will be operatio
 	\item There should be a log that records all activity on the system
 \end{itemize} 
 
+\newpage
+
 \section{Functional requirements and application design}
 
 \subsection{Use case prioritization}
-This section specifies the ranking or order in terms of the priority of services per use case. The use cases can be classified under 3 catogories: Critical ,important and nice-to have.
+This section specifies the level of importance of different use cases, prioritized in terms of the following 3 catogories: Critical, Important and Nice-To-Have. Each of which has a lesser importance than the previous one.
+
+\subsubsection{Citical:}
 	\begin{itemize}
-		\item Server connection (Critical)
-		\item Database connection(Critical)
-		\item User gateaway (Critical)
-		\item Research paper management(critical)
-		\item User account management(critical)
-		\item Log services (critical)
-		\item notification services(important)
-		\item search services(important)
-		\item Archival services(important)
+		\item Server connection
+		\item Database connection
+		\item User gateaway
+		\item Research paper management
+		\item User account management
+		\item Log services
+	\end{itemize}
+	
+\subsubsection{Important:}	
+	\begin{itemize}
+		\item Notification Services
+		\item Search Services
+		\item Archival Services
 	\end{itemize} 
+	
+\subsubsection{Nice-To-Have:}
+	\begin{itemize}
+		\item ???
+	\end{itemize}
 
 \subsection{Use case/Services contracts}
 
@@ -231,8 +260,8 @@ This section specifies the ranking or order in terms of the priority of services
 \section{Open Issues}
 
 \newpage
+
 \section{References}
 PIETERSE, V. 2016. COS301: Mini project. In: Lecture notes issued online.  University of Pretoria. Pretoria, South Africa
-
 
 \end{document}
