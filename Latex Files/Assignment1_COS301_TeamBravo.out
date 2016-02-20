@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Vision}{}% 2
 \BOOKMARK [1][-]{section.3}{Background}{}% 3
@@ -19,3 +20,21 @@
 \BOOKMARK [2][-]{subsection.5.5}{Domain Model}{section.5}% 19
 \BOOKMARK [1][-]{section.6}{Open Issues}{}% 20
 \BOOKMARK [1][-]{section.6}{References}{}% 21
+=======
+\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.0.2}{Vision}{}% 2
+\BOOKMARK [1][-]{section.0.3}{Background}{}% 3
+\BOOKMARK [1][-]{section.0.4}{Architecture Requirements}{}% 4
+\BOOKMARK [2][-]{subsection.0.4.1}{Access channel requirements}{section.0.4}% 5
+\BOOKMARK [2][-]{subsection.0.4.2}{Quality requirements}{section.0.4}% 6
+\BOOKMARK [2][-]{subsection.0.4.3}{Integration requirements}{section.0.4}% 7
+\BOOKMARK [2][-]{subsection.0.4.4}{Architecture constraints}{section.0.4}% 8
+\BOOKMARK [1][-]{section.0.5}{Functional requirements and application design}{}% 9
+\BOOKMARK [2][-]{subsection.0.5.1}{Use case prioritization}{section.0.5}% 10
+\BOOKMARK [2][-]{subsection.0.5.2}{Use case/Services contracts}{section.0.5}% 11
+\BOOKMARK [2][-]{subsection.0.5.3}{Required functionality}{section.0.5}% 12
+\BOOKMARK [2][-]{subsection.0.5.4}{Process specifications}{section.0.5}% 13
+\BOOKMARK [2][-]{subsection.0.5.5}{Domain Model}{section.0.5}% 14
+\BOOKMARK [1][-]{section.0.6}{Open Issues}{}% 15
+\BOOKMARK [1][-]{section.0.7}{References}{}% 16
+>>>>>>> b535d8294077918b0f2b40897c2f0f4d09f0fef3
