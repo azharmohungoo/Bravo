@@ -1,23 +1,18 @@
-\documentclass[a4paper,12pt]{report}
+\documentclass[11pt]{article}
 \addtolength{\oddsidemargin}{-1.cm}
 \addtolength{\textwidth}{2cm}
 \addtolength{\topmargin}{-2cm}
 \addtolength{\textheight}{3.5cm}
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-\makeindex
 
-\usepackage{longtable}
 \usepackage[pdftex]{graphicx}
-\usepackage{makeidx}
 \usepackage{hyperref}
-\usepackage{verbatim}
+\usepackage{cite}
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
     filecolor=magenta,      
     urlcolor=cyan,
 }
-
 
 % define the title
 \author{Team Bravo}
@@ -26,118 +21,7 @@
 \setlength{\parskip}{6pt}
 
 % generates the title
-\begin{titlepage}
-
-\begin{center}
-% Upper part of the page       
-\includegraphics[width=1\textwidth]{../Images/University_of_Pretoria_Logo.PNG}\\[0.5cm]    
-\textsc{\LARGE Department of Computer Science}\\[0.5cm]
-\textsc{\Large COS 301}\\[0.5cm]
-\textsc{\Large Mini Project Assignment 1}\\[0.75cm]
-% Title
-\HRule \\[0.4cm]
-{ \huge \bfseries Software Requirements Specification \\ [0.1cm] 
-	and \\ [0.5cm] Technology Neutral Process Design}\\[0.5cm]
-\HRule \\[1cm]
-
-% Author and supervisor
-\textsc{\Large Team Bravo}\\[1cm]
-
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{Student:}\\[0.75cm]
-Daniel {King}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{Student number:} \\[0.75cm]
-u13307607
-\end{flushright}
-\end{minipage}
-
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{} \\
-Azhar {Mohungoo }
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{} \\
-u12239799
-\end{flushright}
-\end{minipage}
-
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-Andreas {du Preez}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{} \\
-u12207871 
-\end{flushright}
-\end{minipage}
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-Banele {Nxumalo}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{} \\
-u12201911 
-\end{flushright}
-\end{minipage}
-
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-Frederic {Ehlers}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{} \\
-u11061112  
-\end{flushright}
-\end{minipage}
-
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-Diana {Obo}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{} \\
-u13134885
-\end{flushright}
-\end{minipage}
-
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-Bilal {Muhammad}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{} \\
-u13080335
-\end{flushright}
-\end{minipage}
-\vfill
-
-\end{center}
-\end{titlepage}
+\input{coverPage.tex}
 
 \renewcommand{\thesection}{\arabic{section}}
 \newpage
@@ -145,7 +29,7 @@ u13080335
 \tableofcontents 
 
 \begin{center} 
-\textsc{} \\[3cm]
+\textsc{} \\[1cm]
 \textsc{\Large Bravo github repository link}\\[0.5cm]
 For further references, please click on this \href{https://github.com/ish1993/Bravo}{link}.
 \end{center}
@@ -183,21 +67,28 @@ Reseacher papers tend to be fairly lengthy, and if completed by only one author,
 
 \subsection{Access channel requirements}
 The different access channels for the system will be as follows:
+
 \subsubsection{Web Application}
 The system can be used via a web application that uses RESTful web services and bootstrap technology. The system will be fully supported on the following web browsers:
+
 \begin{itemize}
 	\item Chrome 7.0.517 and up
 	\item Firefox 3.6 and up
 	\item Safari 4 and up
 	\item Edge
 \end{itemize}
+
 Bootstrap will be used so that the web application will also be accessible by mobile web browsers that support HTML5 and JavaScript technology.
+
 \subsubsection{Mobile Application}
 The system will also be accessible via a mobile application and will be operational on the following mobile operating systems:
+
 \begin{itemize}
 	\item Android 4.0 (Ice Cream Sandwich) and up.
 \end{itemize}
+
 \subsection{Quality requirements}
+
 \begin{itemize}
 	\item Security - The system shall identify all of its client applications before allowing them access to those enities. Possible measurement methods: Success rate in authentication, percentage of successful attacks, encryption level and probability/time/resources needed to attack the system.
 	\item Usability - The degree of ease of use and training needed for end users. Possible measurement methods: Time it took a user to find a report (search functionality), percentage of deadlines met (notification functionality) and time it took a user to perform certain tasks.
@@ -207,9 +98,11 @@ The system will also be accessible via a mobile application and will be operatio
 	\item Availability - Percentage of time that the system is up and running correctly. Possible measurement methods: Length of time between failures and length of time needed to resume operation after a failure.
 	\item Performance - Possible measurement methods: How well the system perform under high workload and number of events processed/denied in some interval of time.
 \end{itemize}
+
 \subsection{Integration requirements}
 
 \subsection{Architecture constraints}
+
 \begin{itemize}
 	\item The platform must exist in 2 mediums, namely web and android application.
 	\item It is an internal network to be used by the Computer Science department, so it need not to source any information from the web.
@@ -256,12 +149,11 @@ This section specifies the level of importance of different use cases, prioritiz
 
 \subsection{Domain Model}
 
-
 \section{Open Issues}
 
 \newpage
-
-\section{References}
-PIETERSE, V. 2016. COS301: Mini project. In: Lecture notes issued online.  University of Pretoria. Pretoria, South Africa
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plainurl}
+\bibliography{bibfile}{}
 
 \end{document}

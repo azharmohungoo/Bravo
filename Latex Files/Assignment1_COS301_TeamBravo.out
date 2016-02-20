@@ -1,16 +1,21 @@
-\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.0.2}{Vision}{}% 2
-\BOOKMARK [1][-]{section.0.3}{Background}{}% 3
-\BOOKMARK [1][-]{section.0.4}{Architecture Requirements}{}% 4
-\BOOKMARK [2][-]{subsection.0.4.1}{Access channel requirements}{section.0.4}% 5
-\BOOKMARK [2][-]{subsection.0.4.2}{Quality requirements}{section.0.4}% 6
-\BOOKMARK [2][-]{subsection.0.4.3}{Integration requirements}{section.0.4}% 7
-\BOOKMARK [2][-]{subsection.0.4.4}{Architecture constraints}{section.0.4}% 8
-\BOOKMARK [1][-]{section.0.5}{Functional requirements and application design}{}% 9
-\BOOKMARK [2][-]{subsection.0.5.1}{Use case prioritization}{section.0.5}% 10
-\BOOKMARK [2][-]{subsection.0.5.2}{Use case/Services contracts}{section.0.5}% 11
-\BOOKMARK [2][-]{subsection.0.5.3}{Required functionality}{section.0.5}% 12
-\BOOKMARK [2][-]{subsection.0.5.4}{Process specifications}{section.0.5}% 13
-\BOOKMARK [2][-]{subsection.0.5.5}{Domain Model}{section.0.5}% 14
-\BOOKMARK [1][-]{section.0.6}{Open Issues}{}% 15
-\BOOKMARK [1][-]{section.0.7}{References}{}% 16
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Vision}{}% 2
+\BOOKMARK [1][-]{section.3}{Background}{}% 3
+\BOOKMARK [1][-]{section.4}{Architecture Requirements}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Access channel requirements}{section.4}% 5
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Web Application}{subsection.4.1}% 6
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Mobile Application}{subsection.4.1}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Quality requirements}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.3}{Integration requirements}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.4}{Architecture constraints}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Functional requirements and application design}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Use case prioritization}{section.5}% 12
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Citical:}{subsection.5.1}% 13
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Important:}{subsection.5.1}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Nice-To-Have:}{subsection.5.1}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Use case/Services contracts}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.3}{Required functionality}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.4}{Process specifications}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.5}{Domain Model}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{Open Issues}{}% 20
+\BOOKMARK [1][-]{section.6}{References}{}% 21
