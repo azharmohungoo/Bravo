@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  24 FEB 2016 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  25 FEB 2016 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -292,76 +292,82 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
  [3] [4]
-[5] [6] [7]
-<../Images/Server_Connection_Sequence_Diagram.png, id=198, 657.45625pt x 573.14
+[5] [6]
+Overfull \hbox (7.98547pt too wide) in paragraph at lines 179--180
+[]\OT1/cmr/m/n/10.95 View statis-tics of per-son,group or de-part-ment ( e.g nu
+m-ber of units,publications
+ []
+
+[7] [8]
+<../Images/Server_Connection_Sequence_Diagram.png, id=202, 657.45625pt x 573.14
 125pt>
 File: ../Images/Server_Connection_Sequence_Diagram.png Graphic file (type png)
  <use ../Images/Server_Connection_Sequence_Diagram.png>
 Package pdftex.def Info: ../Images/Server_Connection_Sequence_Diagram.png used 
-on input line 184.
+on input line 214.
 (pdftex.def)             Requested size: 416.9055pt x 363.44215pt.
- [8 <../Images/Server_Connection_Sequence_Diagram.png (PNG copy)>]
-<../Images/Database_Connection_Activity-Diagram.png, id=203, 548.0475pt x 513.9
+ [9 <../Images/Server_Connection_Sequence_Diagram.png (PNG copy)>]
+<../Images/Database_Connection_Activity-Diagram.png, id=207, 548.0475pt x 513.9
 2pt>
 File: ../Images/Database_Connection_Activity-Diagram.png Graphic file (type png
 )
  <use ../Images/Database_Connection_Activity-Diagram.png>
 Package pdftex.def Info: ../Images/Database_Connection_Activity-Diagram.png use
-d on input line 190.
+d on input line 220.
 (pdftex.def)             Requested size: 416.9055pt x 390.95181pt.
- [9 <../Images/Database_Connection_Activity-Diagram.png (PNG copy)>]
-<../Images/Login_Activity_Diagram.png, id=208, 552.0625pt x 421.575pt>
+ [10 <../Images/Database_Connection_Activity-Diagram.png (PNG copy)>]
+<../Images/Login_Activity_Diagram.png, id=212, 552.0625pt x 421.575pt>
 File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Login_Activity_Diagram.png used on input lin
-e 196.
+e 226.
 (pdftex.def)             Requested size: 416.9055pt x 318.38045pt.
- [10 <../Images/Login_Activity_Diagram.png (PNG copy)>]
-<../Images/Logout_Activity_Diagram.png, id=213, 322.20375pt x 433.62pt>
+ [11 <../Images/Login_Activity_Diagram.png (PNG copy)>]
+<../Images/Logout_Activity_Diagram.png, id=217, 322.20375pt x 433.62pt>
 File: ../Images/Logout_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Logout_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Logout_Activity_Diagram.png used on input li
-ne 202.
+ne 232.
 (pdftex.def)             Requested size: 416.9055pt x 561.09242pt.
- [11 <../Images/Logout_Activity_Diagram.png (PNG copy)>]
-<../Images/newAuthor_Activity_Diagram.png, id=218, 623.32875pt x 308.15125pt>
+ [12 <../Images/Logout_Activity_Diagram.png (PNG copy)>]
+<../Images/newAuthor_Activity_Diagram.png, id=223, 623.32875pt x 308.15125pt>
 File: ../Images/newAuthor_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/newAuthor_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/newAuthor_Activity_Diagram.png used on input
- line 208.
+ line 238.
 (pdftex.def)             Requested size: 416.9055pt x 206.1076pt.
 
-<../Images/DomainModel.png, id=219, 824.07875pt x 342.27875pt>
+<../Images/DomainModel.png, id=224, 1829.83624pt x 1288.815pt>
 File: ../Images/DomainModel.png Graphic file (type png)
 
 <use ../Images/DomainModel.png>
-Package pdftex.def Info: ../Images/DomainModel.png used on input line 213.
-(pdftex.def)             Requested size: 416.9055pt x 173.16014pt.
- [12 <../Images/newAuthor_Activity_Diagram.png (PNG copy)> <../Images/DomainMod
+Package pdftex.def Info: ../Images/DomainModel.png used on input line 243.
+(pdftex.def)             Requested size: 416.9055pt x 293.6287pt.
+ [13 <../Images/newAuthor_Activity_Diagram.png (PNG copy)> <../Images/DomainMod
 el.png (PNG copy)>]
 (./Assignment1_COS301_TeamBravo.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./Assignment1_COS301_TeamBravo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
 Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 4B8D388F20702E3FAE1C2E3297E02DC1;2109.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 5325 strings out of 493089
- 80709 string characters out of 6134843
+ 5326 strings out of 493089
+ 80716 string characters out of 6134843
  163803 words of memory out of 5000000
  8721 multiletter control sequences out of 15000+600000
  9753 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,28p,346b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,5n,28p,346b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -369,10 +375,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (14 pages, 413563 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (15 pages, 518526 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
