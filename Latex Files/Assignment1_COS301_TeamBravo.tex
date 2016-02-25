@@ -202,6 +202,156 @@ This section specifies the level of importance of different use cases, prioritiz
 	\end{itemize}
 
 \subsection{Use case/Services contracts}
+\begin{itemize}
+	\item Server Connection
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability for a user to make a connection to the server
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }The user must be attempting to begin using the service
+	and must not be already using it.
+}
+
+{\raggedright
+	\textbf{Post-Condition:} The service must now be displayed to the user and an
+	option to login must be available.
+}
+
+\begin{itemize}
+	\item Database Connection
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability for the program to connect to the database.
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }The program must be in a state where database connection
+	is required. Eg a user is attempting to login to the system
+}
+
+{\raggedright
+	\textbf{Post-Condition: }The program should be able to interact with the
+	database at this point.
+}
+
+\begin{itemize}
+	\item User gateway
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability for a user to login to the system
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }The user must have provided login details that match
+	those found in the database system.
+}
+
+{\raggedright
+	\textbf{Post-Condition: }The user must be considered “logged in” by the system.
+}
+
+\begin{itemize}
+	\item Research paper management
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability to interact with the research paper eg
+	edit/delete it
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }A research paper must be specified
+}
+
+{\raggedright
+	\textbf{post-Condition: }The research paper needs be modified in the desired
+	way.
+}
+
+\begin{itemize}
+	\item User Account Management
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The user should be able to view and edit his account details
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }The user must be considered logged in
+}
+
+{\raggedright
+	\textbf{Post-Condition: }The user has edited part of his profile, or is able to see the details regarding his profile.
+}
+
+\begin{itemize}
+	\item Log services
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability for logs to be created of the work done on the various papers
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }A paper must be edited or otherwise modified in some way
+}
+
+{\raggedright
+	\textbf{Post-Condition: }The action is recorded in a log
+}
+
+\begin{itemize}
+	\item Notificaiton Service
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability to notify the user of various actions that have taken place on a paper they are an author of
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }The paper has been modified in some way, and the user must be an author of said paper
+}
+
+{\raggedright
+	\textbf{Post-Condition: }An email is sent to the user notifying him/her
+}
+
+\begin{itemize}
+	\item Search Services
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability to search for papers that will be presented at the same conference.
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }There must exist papers within the database that are related in that way.
+}
+
+{\raggedright
+	\textbf{Post-Condition: }The paper/s in question are displayed for the user.
+}
+
+\begin{itemize}
+	\item Archival Services
+\end{itemize}
+
+{\raggedright
+	\textbf{Description: }The ability to find all papers worked on, or currently being worked on
+}
+
+{\raggedright
+	\textbf{Pre-Condition: }The user doing so must be the head of department also the paper in question must exist in the database.
+}
+
+{\raggedright
+	\textbf{Post-Condition: }The paper being searched is displayed for the user.
+}
 
 \subsection{Required functionality}
 
