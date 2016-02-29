@@ -26,10 +26,11 @@
 \renewcommand{\thesection}{\arabic{section}}
 \newpage
 
-\tableofcontents 
+\tableofcontents
 
-\begin{center} 
-\textsc{} \\[1cm]
+\textsc{}\\[1cm]
+
+\begin{center}
 \textsc{\Large Bravo github repository link}\\[0.5cm]
 For further references, please click on this \href{https://github.com/ish1993/Bravo}{link}.
 \end{center}
@@ -101,15 +102,15 @@ The system will also be accessible via a mobile application and will be operatio
 
 \subsection{Integration requirements}
 
-	\subsubsection{Integration channels to be used}
+	\subsubsection{Integration channels}
 		\begin{itemize}
-			\item System will be integrated on two platforms. A website and an android application.
+			\item System will be integrated on two platforms: a website and an android application.
 		\end{itemize}
 	
-	\subsubsection{Protocols to be integrated}
+	\subsubsection{Protocols}
 		\begin{itemize}
 			\item Protocols needed for the website:  HTTPS, Data Query Protocol
-			\item Protocols needed for the application: SIP
+			\item Protocols needed for the application: Session Initiation Protocol (SIP)
 		\end{itemize}
 	
 	\subsubsection{API specification (UML form) and technology specific API specification}
@@ -148,21 +149,51 @@ The system will also be accessible via a mobile application and will be operatio
 \subsection{Use case prioritization}
 This section specifies the level of importance of different use cases, prioritized in terms of the following 3 catogories: Critical, Important and Nice-To-Have. Each of which has a lesser importance than the previous one.
 
-\subsubsection{Citical:}
+\subsubsection{Critical:}
 	\begin{itemize}
 		\item Server connection
 		\item Database connection
 		\item User gateaway
+		\begin{itemize}
+			\item Login user
+			\item Register user
+			\item Authenticate user
+		\end{itemize}
 		\item Research paper management
+		\begin{itemize}
+			\item View paper
+			\item Modify paper
+			\item Publish paper
+			\item Assign venue for paper
+			\item View research paper venue
+		\end{itemize}
 		\item User account management
+		\begin{itemize}
+			\item Create new account
+			\item Edit account
+			\item Remove account
+			\item View user account
+		\end{itemize}
 		\item Log services
+		\begin{itemize}
+			\item View statistics of person,group or department ( e.g number of units,publications etc)
+			\item View recent activities of users
+		\end{itemize}
 	\end{itemize}
 	
 \subsubsection{Important:}	
 	\begin{itemize}
 		\item Notification Services
+		\begin{itemize}
+			\item Set deadline
+			\item Extend deadline
+		\end{itemize}
 		\item Search Services
 		\item Archival Services
+		\begin{itemize}
+			\item Backup  database
+			\item Retrieve backed up information
+		\end{itemize}
 	\end{itemize} 
 	
 \subsubsection{Nice-To-Have:}
@@ -174,7 +205,38 @@ This section specifies the level of importance of different use cases, prioritiz
 
 \subsection{Required functionality}
 
+\newpage
+
 \subsection{Process specifications}
+
+\subsubsection{Server Connection}
+\begin{center} 
+	\includegraphics[width=\textwidth]{../Images/Server_Connection_Sequence_Diagram.png}\\[0.5cm]
+\end{center}
+
+\newpage
+\subsubsection{Database Connection}
+\begin{center} 
+	\includegraphics[width=\textwidth]{../Images/Database_Connection_Activity-Diagram.png}\\[0.5cm]
+\end{center}
+
+\newpage
+\subsubsection{Login}
+\begin{center} 
+	\includegraphics[width=\textwidth]{../Images/Login_Activity_Diagram.png}\\[0.5cm]
+\end{center}
+
+\newpage
+\subsubsection{Logout}
+\begin{center} 
+	\includegraphics[width=\textwidth]{../Images/Logout_Activity_Diagram.png}\\[0.5cm]
+\end{center}
+
+\newpage
+\subsubsection{New Author}
+\begin{center} 
+	\includegraphics[width=\textwidth]{../Images/newAuthor_Activity_Diagram.png}\\[0.5cm]
+\end{center}
 
 \subsection{Domain Model}
 \begin{center}
