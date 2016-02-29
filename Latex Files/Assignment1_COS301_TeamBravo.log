@@ -1,10 +1,11 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.21)  25 FEB 2016 15:37
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.18)  28 FEB 2016 12:19
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
 entering extended mode
-**"C:/Users/Fred/Documents/COS 301/gitHub/Latex Files/Assignment1_COS301_TeamBr
-avo.tex"
-
-("C:/Users/Fred/Documents/COS 301/gitHub/Latex Files/Assignment1_COS301_TeamBra
-vo.tex"
+**./Assignment1_COS301_TeamBravo.tex
+(Assignment1_COS301_TeamBravo.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -134,7 +135,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\Bilal\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -171,7 +172,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(C:\Users\Bilal\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
@@ -196,7 +197,7 @@ LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\Bilal\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen109
@@ -254,6 +255,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 24.
  [1
 
+<<<<<<< HEAD
 {C:/Users/Fred/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../Images/Un
 iversity_of_Pretoria_Logo.PNG>]) (Assignment1_COS301_TeamBravo.tocpdfTeX warnin
 g (ext4): destination with the same identifier (name{page.1}) has been already 
@@ -261,6 +263,15 @@ used, duplicate ignored
 <to be read again> 
                    \relax 
 l.30 ...sline {section}{References}{14}{section.6}
+=======
+{C:/Users/Bilal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../Images/U
+niversity_of_Pretoria_Logo.PNG>]) (Assignment1_COS301_TeamBravo.tocpdfTeX warni
+ng (ext4): destination with the same identifier (name{page.1}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 ...sline {section}{References}{16}{section.6}
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
                                                    [1])
 \tf@toc=\write4
 \openout4 = `Assignment1_COS301_TeamBravo.toc'.
@@ -284,45 +295,89 @@ Overfull \hbox (7.98547pt too wide) in paragraph at lines 179--180
 m-ber of units,publications
  []
 
+<<<<<<< HEAD
 [7] [8]
 <../Images/Server_Connection_Sequence_Diagram.png, id=200, 657.45625pt x 573.14
+=======
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[7] [8]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+ [9] [10]
+<../Images/Server_Connection_Sequence_Diagram.png, id=208, 657.45625pt x 573.14
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
 125pt>
 File: ../Images/Server_Connection_Sequence_Diagram.png Graphic file (type png)
  <use ../Images/Server_Connection_Sequence_Diagram.png>
 Package pdftex.def Info: ../Images/Server_Connection_Sequence_Diagram.png used 
+<<<<<<< HEAD
 on input line 214.
 (pdftex.def)             Requested size: 416.9055pt x 363.44215pt.
  [9 <../Images/Server_Connection_Sequence_Diagram.png (PNG copy)>]
 <../Images/Database_Connection_Activity-Diagram.png, id=205, 548.0475pt x 513.9
+=======
+on input line 387.
+(pdftex.def)             Requested size: 416.9055pt x 363.44215pt.
+ [11 <../Images/Server_Connection_Sequence_Diagram.png (PNG copy)>]
+<../Images/Database_Connection_Activity-Diagram.png, id=213, 548.0475pt x 513.9
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
 2pt>
 File: ../Images/Database_Connection_Activity-Diagram.png Graphic file (type png
 )
  <use ../Images/Database_Connection_Activity-Diagram.png>
 Package pdftex.def Info: ../Images/Database_Connection_Activity-Diagram.png use
+<<<<<<< HEAD
 d on input line 220.
 (pdftex.def)             Requested size: 416.9055pt x 390.95181pt.
  [10 <../Images/Database_Connection_Activity-Diagram.png (PNG copy)>]
 <../Images/Login_Activity_Diagram.png, id=210, 552.0625pt x 421.575pt>
+=======
+d on input line 393.
+(pdftex.def)             Requested size: 416.9055pt x 390.95181pt.
+ [12 <../Images/Database_Connection_Activity-Diagram.png (PNG copy)>]
+<../Images/Login_Activity_Diagram.png, id=219, 552.0625pt x 421.575pt>
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
 File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Login_Activity_Diagram.png used on input lin
+<<<<<<< HEAD
 e 226.
 (pdftex.def)             Requested size: 416.9055pt x 318.38045pt.
  [11 <../Images/Login_Activity_Diagram.png (PNG copy)>]
 <../Images/Logout_Activity_Diagram.png, id=215, 322.20375pt x 433.62pt>
+=======
+e 399.
+(pdftex.def)             Requested size: 416.9055pt x 318.38045pt.
+ [13 <../Images/Login_Activity_Diagram.png (PNG copy)>]
+<../Images/Logout_Activity_Diagram.png, id=224, 322.20375pt x 433.62pt>
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
 File: ../Images/Logout_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Logout_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Logout_Activity_Diagram.png used on input li
+<<<<<<< HEAD
 ne 232.
 (pdftex.def)             Requested size: 416.9055pt x 561.09242pt.
  [12 <../Images/Logout_Activity_Diagram.png (PNG copy)>]
 <../Images/newAuthor_Activity_Diagram.png, id=221, 623.32875pt x 308.15125pt>
+=======
+ne 405.
+(pdftex.def)             Requested size: 416.9055pt x 561.09242pt.
+ [14 <../Images/Logout_Activity_Diagram.png (PNG copy)>]
+<../Images/newAuthor_Activity_Diagram.png, id=229, 623.32875pt x 308.15125pt>
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
 File: ../Images/newAuthor_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/newAuthor_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/newAuthor_Activity_Diagram.png used on input
+<<<<<<< HEAD
  line 238.
 (pdftex.def)             Requested size: 416.9055pt x 206.1076pt.
 
@@ -349,11 +404,43 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
 Here is how much of TeX's memory you used:
  5214 strings out of 493634
  78592 string characters out of 3141317
+=======
+ line 411.
+(pdftex.def)             Requested size: 416.9055pt x 206.1076pt.
+
+<../Images/DomainModel.png, id=230, 1829.83624pt x 1288.815pt>
+File: ../Images/DomainModel.png Graphic file (type png)
+
+<use ../Images/DomainModel.png>
+Package pdftex.def Info: ../Images/DomainModel.png used on input line 416.
+(pdftex.def)             Requested size: 416.9055pt x 293.6287pt.
+ [15 <../Images/newAuthor_Activity_Diagram.png (PNG copy)> <../Images/DomainMod
+el.png (PNG copy)>]
+(Assignment1_COS301_TeamBravo.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
+ (Assignment1_COS301_TeamBravo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
+Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: C1FA3A69592D00362D7360FB1469112F;2139.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
+ ) 
+Here is how much of TeX's memory you used:
+ 5215 strings out of 493634
+ 78517 string characters out of 3141314
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
  161042 words of memory out of 3000000
  8518 multiletter control sequences out of 15000+200000
  9753 words of font info for 34 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  29i,5n,28p,399b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+ 29i,6n,28p,348b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
@@ -361,9 +448,16 @@ Here is how much of TeX's memory you used:
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+<<<<<<< HEAD
 Output written on Assignment1_COS301_TeamBravo.pdf (15 pages, 542693 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
+=======
+Output written on Assignment1_COS301_TeamBravo.pdf (17 pages, 546605 bytes).
+PDF statistics:
+ 278 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+>>>>>>> 139678c3f3d6de9eca4427e25c3b71412471349b
  276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
