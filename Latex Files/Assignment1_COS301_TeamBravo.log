@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  2 MAR 2016 15:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  2 MAR 2016 15:03
 entering extended mode
 **Assignment1_COS301_TeamBravo.tex
 
@@ -315,17 +315,17 @@ n input line 392.
 (pdftex.def)             Requested size: 416.9055pt x 286.29181pt.
  [11 <C:/Users/Diana/Documents/GitHub/Bravo/Images/serverConnection_Sequence_Di
 agram.png>]
-<../Images/Database_Connection_Activity-Diagram.png, id=213, 548.0475pt x 513.9
-2pt>
-File: ../Images/Database_Connection_Activity-Diagram.png Graphic file (type png
-)
- <use ../Images/Database_Connection_Activity-Diagram.png>
-Package pdftex.def Info: ../Images/Database_Connection_Activity-Diagram.png use
-d on input line 398.
-(pdftex.def)             Requested size: 416.9055pt x 390.95181pt.
- [12 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Database_Connection_Activity
--Diagram.png (PNG copy)>] <../Images/Login_Activity_Diagram.png, id=219, 552.06
-25pt x 421.575pt>
+<../Images/databaseConnection_Activity_Diagram.png, id=213, 469.755pt x 440.646
+26pt>
+File: ../Images/databaseConnection_Activity_Diagram.png Graphic file (type png)
+
+ <use ../Images/databaseConnection_Activity_Diagram.png>
+Package pdftex.def Info: ../Images/databaseConnection_Activity_Diagram.png used
+ on input line 398.
+(pdftex.def)             Requested size: 416.9055pt x 391.07124pt.
+ [12 <C:/Users/Diana/Documents/GitHub/Bravo/Images/databaseConnection_Activity_
+Diagram.png>]
+<../Images/Login_Activity_Diagram.png, id=219, 552.0625pt x 421.575pt>
 File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
@@ -377,7 +377,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
  ) 
 Here is how much of TeX's memory you used:
  5218 strings out of 493921
- 78905 string characters out of 3147282
+ 78900 string characters out of 3147282
  156559 words of memory out of 3000000
  8429 multiletter control sequences out of 15000+200000
  9753 words of font info for 34 fonts, out of 3000000 for 9000
@@ -390,7 +390,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (17 pages, 546701 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (17 pages, 545783 bytes).
 PDF statistics:
  278 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
