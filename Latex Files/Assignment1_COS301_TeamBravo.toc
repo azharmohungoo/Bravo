@@ -25,6 +25,6 @@
 \contentsline {subsubsection}{\numberline {5.4.3}Login}{13}{subsubsection.5.4.3}
 \contentsline {subsubsection}{\numberline {5.4.4}Logout}{14}{subsubsection.5.4.4}
 \contentsline {subsubsection}{\numberline {5.4.5}New Author}{15}{subsubsection.5.4.5}
-\contentsline {subsection}{\numberline {5.5}Domain Model}{15}{subsection.5.5}
-\contentsline {section}{\numberline {6}Open Issues}{15}{section.6}
-\contentsline {section}{References}{16}{section.6}
+\contentsline {subsection}{\numberline {5.5}Domain Model}{16}{subsection.5.5}
+\contentsline {section}{\numberline {6}Open Issues}{16}{section.6}
+\contentsline {section}{References}{17}{section.6}
