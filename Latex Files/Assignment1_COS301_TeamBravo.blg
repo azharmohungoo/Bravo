@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Assignment1_COS301_TeamBravo.aux
@@ -48,3 +49,8 @@ warning$ -- 0
 while$ -- 2
 width$ -- 2
 write$ -- 14
+=======
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Assignment1_COS301_TeamBravo.aux
+The style file: plainurl.bst
+Database file #1: bibfile.bib
+>>>>>>> 07425e177fb107f64c78547e23df7a197074a8e1
