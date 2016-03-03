@@ -1,31 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  3 MAR 2016 10:16
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  2 MAR 2016 15:07
-entering extended mode
-**Assignment1_COS301_TeamBravo.tex
-
-("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
-o.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  2 MAR 2016 20:27
->>>>>>> 2831dd1f83513239d3249c49dd4595e31eee9d15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  3 MAR 2016 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -37,7 +10,6 @@ Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
->>>>>>> origin/master
 )
 \c@part=\count79
 \c@section=\count80
@@ -51,23 +23,6 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -83,19 +38,9 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
->>>>>>> origin/master
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
@@ -103,7 +48,6 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
->>>>>>> origin/master
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -111,18 +55,6 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -133,7 +65,6 @@ Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
->>>>>>> origin/master
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -172,15 +103,6 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -188,27 +110,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
->>>>>>> origin/master
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen105
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
->>>>>>> origin/master
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count90
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
->>>>>>> origin/master
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -220,11 +133,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
->>>>>>> origin/master
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -249,45 +158,28 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
->>>>>>> origin/master
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
->>>>>>> origin/master
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
->>>>>>> origin/master
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
-<<<<<<< HEAD
-("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
-o.aux")
-=======
 (./Assignment1_COS301_TeamBravo.aux)
 \openout1 = `Assignment1_COS301_TeamBravo.aux'.
 
->>>>>>> origin/master
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -302,12 +194,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-<<<<<<< HEAD
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-=======
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
->>>>>>> origin/master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen109
@@ -336,35 +224,21 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box27
-<<<<<<< HEAD
- ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-=======
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
->>>>>>> origin/master
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 142.
 )
 Package hyperref Info: Link coloring ON on input line 20.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-=======
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
->>>>>>> origin/master
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count104
@@ -373,15 +247,6 @@ LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
 
-<<<<<<< HEAD
-("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
-o.out")
-("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
-o.out")
-\@outlinefile=\write3
- ("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\coverPage.tex"
-<../Images/University_of_Pretoria_Logo.PNG, id=122, 900.36375pt x 269.50688pt>
-=======
 (./Assignment1_COS301_TeamBravo.out) (./Assignment1_COS301_TeamBravo.out)
 \@outlinefile=\write3
 \openout3 = `Assignment1_COS301_TeamBravo.out'.
@@ -389,7 +254,6 @@ o.out")
 
 (./coverPage.tex
 <../Images/University_of_Pretoria_Logo.PNG, id=155, 900.36375pt x 269.50688pt>
->>>>>>> origin/master
 File: ../Images/University_of_Pretoria_Logo.PNG Graphic file (type png)
 
 <use ../Images/University_of_Pretoria_Logo.PNG>
@@ -404,23 +268,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 24.
  [1
 
-<<<<<<< HEAD
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Diana/Documents/
-GitHub/Bravo/Images/University_of_Pretoria_Logo.PNG>])
-("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
-o.toc"pdfTeX warning (ext4): destination with the same identifier (name{page.1}
-) has been already used, duplicate ignored
-=======
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Imag
 es/University_of_Pretoria_Logo.PNG>]) (./Assignment1_COS301_TeamBravo.tocpdfTeX
  warning (ext4): destination with the same identifier (name{page.1}) has been a
 lready used, duplicate ignored
->>>>>>> origin/master
 <to be read again> 
                    \relax 
 l.30 ...rocess specifications}{14}{subsection.5.4}
                                                    [1])
 \tf@toc=\write4
+\openout4 = `Assignment1_COS301_TeamBravo.toc'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
@@ -428,20 +286,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
-<<<<<<< HEAD
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
- [3] [4] [5]
-[6]
-Overfull \hbox (7.98547pt too wide) in paragraph at lines 179--180
-[]\OT1/cmr/m/n/10.95 View statis-tics of per-son,group or de-part-ment ( e.g nu
-m-ber of units,publications
- []
-
-=======
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -449,7 +293,6 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
  [3] [4]
 [5] [6]
->>>>>>> origin/master
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -466,29 +309,6 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-<<<<<<< HEAD
- [9] [10]
-<../Images/serverConnection_Sequence_Diagram.png, id=208, 618.31pt x 424.58624p
-t>
-File: ../Images/serverConnection_Sequence_Diagram.png Graphic file (type png)
- <use ../Images/serverConnection_Sequence_Diagram.png>
-Package pdftex.def Info: ../Images/serverConnection_Sequence_Diagram.png used o
-n input line 392.
-(pdftex.def)             Requested size: 416.9055pt x 286.29181pt.
- [11 <C:/Users/Diana/Documents/GitHub/Bravo/Images/serverConnection_Sequence_Di
-agram.png>]
-<../Images/databaseConnection_Activity_Diagram.png, id=213, 469.755pt x 440.646
-26pt>
-File: ../Images/databaseConnection_Activity_Diagram.png Graphic file (type png)
-
- <use ../Images/databaseConnection_Activity_Diagram.png>
-Package pdftex.def Info: ../Images/databaseConnection_Activity_Diagram.png used
- on input line 398.
-(pdftex.def)             Requested size: 416.9055pt x 391.07124pt.
- [12 <C:/Users/Diana/Documents/GitHub/Bravo/Images/databaseConnection_Activity_
-Diagram.png>]
-<../Images/Login_Activity_Diagram.png, id=219, 549.05125pt x 376.40625pt>
-=======
  [9] <../Images/DatabaseConnectionUC.jpg, id=246, 877.2775pt x 550.055pt>
 File: ../Images/DatabaseConnectionUC.jpg Graphic file (type jpg)
 
@@ -536,68 +356,46 @@ e 314.
 (pdftex.def)             Requested size: 416.9055pt x 255.97368pt.
  [12 <../Images/UserAccountManagementUC.jpg> <../Images/LogServicesUC.jpg>] [13
  <../Images/NotificationServicesUC.jpg>]
-<../Images/Server_Connection_Sequence_Diagram.png, id=269, 657.45625pt x 573.14
-125pt>
+<../Images/Server_Connection_Sequence_Diagram.png, id=269, 618.31pt x 424.58624
+pt>
 File: ../Images/Server_Connection_Sequence_Diagram.png Graphic file (type png)
  <use ../Images/Server_Connection_Sequence_Diagram.png>
 Package pdftex.def Info: ../Images/Server_Connection_Sequence_Diagram.png used 
 on input line 324.
-(pdftex.def)             Requested size: 416.9055pt x 363.44215pt.
- [14 <../Images/Server_Connection_Sequence_Diagram.png (PNG copy)>]
-<../Images/Database_Connection_Activity-Diagram.png, id=274, 548.0475pt x 513.9
-2pt>
-File: ../Images/Database_Connection_Activity-Diagram.png Graphic file (type png
+(pdftex.def)             Requested size: 416.9055pt x 286.29181pt.
+ [14 <../Images/Server_Connection_Sequence_Diagram.png>]
+<../Images/Database_Connection_Activity_Diagram.png, id=274, 469.755pt x 440.64
+626pt>
+File: ../Images/Database_Connection_Activity_Diagram.png Graphic file (type png
 )
- <use ../Images/Database_Connection_Activity-Diagram.png>
-Package pdftex.def Info: ../Images/Database_Connection_Activity-Diagram.png use
+ <use ../Images/Database_Connection_Activity_Diagram.png>
+Package pdftex.def Info: ../Images/Database_Connection_Activity_Diagram.png use
 d on input line 330.
-(pdftex.def)             Requested size: 416.9055pt x 390.95181pt.
- [15 <../Images/Database_Connection_Activity-Diagram.png (PNG copy)>]
-<../Images/Login_Activity_Diagram.png, id=279, 552.0625pt x 421.575pt>
->>>>>>> origin/master
+(pdftex.def)             Requested size: 416.9055pt x 391.07124pt.
+ [15 <../Images/Database_Connection_Activity_Diagram.png>]
+<../Images/Login_Activity_Diagram.png, id=279, 549.05125pt x 376.40625pt>
 File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Login_Activity_Diagram.png used on input lin
-<<<<<<< HEAD
-e 404.
-(pdftex.def)             Requested size: 416.9055pt x 285.819pt.
- [13 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Login_Activity_Diagram.png>]
-
-<../Images/Logout_Activity_Diagram.png, id=224, 462.72874pt x 421.575pt>
-=======
 e 336.
-(pdftex.def)             Requested size: 416.9055pt x 318.38045pt.
- [16 <../Images/Login_Activity_Diagram.png (PNG copy)>]
-<../Images/Logout_Activity_Diagram.png, id=285, 322.20375pt x 433.62pt>
->>>>>>> origin/master
+(pdftex.def)             Requested size: 416.9055pt x 285.819pt.
+ [16 <../Images/Login_Activity_Diagram.png>]
+<../Images/Logout_Activity_Diagram.png, id=285, 462.72874pt x 421.575pt>
 File: ../Images/Logout_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Logout_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Logout_Activity_Diagram.png used on input li
-<<<<<<< HEAD
-ne 410.
-(pdftex.def)             Requested size: 416.9055pt x 379.8321pt.
- [14 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Logout_Activity_Diagram.png>
-]
-<../Images/newAuthor_Activity_Diagram.png, id=229, 513.92pt x 419.5675pt>
-=======
 ne 342.
-(pdftex.def)             Requested size: 416.9055pt x 561.09242pt.
- [17 <../Images/Logout_Activity_Diagram.png (PNG copy)>]
-<../Images/newAuthor_Activity_Diagram.png, id=290, 623.32875pt x 308.15125pt>
->>>>>>> origin/master
+(pdftex.def)             Requested size: 416.9055pt x 379.8321pt.
+ [17 <../Images/Logout_Activity_Diagram.png>]
+<../Images/newAuthor_Activity_Diagram.png, id=290, 513.92pt x 419.5675pt>
 File: ../Images/newAuthor_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/newAuthor_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/newAuthor_Activity_Diagram.png used on input
-<<<<<<< HEAD
- line 416.
-(pdftex.def)             Requested size: 416.9055pt x 340.36638pt.
-=======
  line 348.
-(pdftex.def)             Requested size: 416.9055pt x 206.1076pt.
->>>>>>> origin/master
+(pdftex.def)             Requested size: 416.9055pt x 340.36638pt.
 
 <../Images/DomainModel.png, id=291, 1829.83624pt x 1288.815pt>
 File: ../Images/DomainModel.png Graphic file (type png)
@@ -605,65 +403,28 @@ File: ../Images/DomainModel.png Graphic file (type png)
 <use ../Images/DomainModel.png>
 Package pdftex.def Info: ../Images/DomainModel.png used on input line 353.
 (pdftex.def)             Requested size: 416.9055pt x 293.6287pt.
-<<<<<<< HEAD
- [15 <C:/Users/Diana/Documents/GitHub/Bravo/Images/newAuthor_Activity_Diagram.p
-ng>] [16 <C:/Users/Diana/Documents/GitHub/Bravo/Images/DomainModel.png (PNG cop
-y)>]
-("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
-o.bbl")
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
-
-("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
-o.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 431.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 431.
-=======
- [18 <../Images/newAuthor_Activity_Diagram.png (PNG copy)> <../Images/DomainMod
-el.png (PNG copy)>]
+ [18 <../Images/newAuthor_Activity_Diagram.png>] [19 <../Images/DomainModel.png
+ (PNG copy)>]
 (./Assignment1_COS301_TeamBravo.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
- [19]
+ [20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
  (./Assignment1_COS301_TeamBravo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
->>>>>>> origin/master
 Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 414B6E846651BF3B5CB03482556DAFAB;2736.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 363.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 5219 strings out of 493921
- 78907 string characters out of 3147282
- 156559 words of memory out of 3000000
- 8429 multiletter control sequences out of 15000+200000
- 9753 words of font info for 34 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 29i,6n,28p,346b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (18 pages, 553864 bytes).
-PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 5378 strings out of 493089
- 82134 string characters out of 6134843
+ 5379 strings out of 493089
+ 82141 string characters out of 6134843
  163803 words of memory out of 5000000
  8753 multiletter control sequences out of 15000+600000
  9753 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,28p,346b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,28p,347b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -671,11 +432,10 @@ PDF statistics:
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (20 pages, 1195887 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (21 pages, 1202946 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
+ 348 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 61 named destinations out of 1000 (max. 500000)
  370 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/master
 
