@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \begin{thebibliography}{1}
 
 \bibitem{ref}
@@ -10,16 +9,3 @@ Mrs~Vreda Pieterse.
   University Of Pretoria.
 
 \end{thebibliography}
-=======
-\begin{thebibliography}{1}
-
-\bibitem{ref}
-Mrs~Vreda Pieterse.
-\newblock Cos 301 mini project: Client specification.
-\newblock COS 301 lecture notes and template documents via the Computer Science
-  website, February 2016.
-\newblock Specifications also provided during COS 301 lectures at the
-  University Of Pretoria.
-
-\end{thebibliography}
->>>>>>> 07425e177fb107f64c78547e23df7a197074a8e1

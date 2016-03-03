@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  3 MAR 2016 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  3 MAR 2016 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -177,11 +177,7 @@ Package: cite 2015/02/27  v 5.5
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
-(./Assignment1_COS301_TeamBravo.aux
-
-LaTeX Warning: Label `ref' multiply defined.
-
-)
+(./Assignment1_COS301_TeamBravo.aux)
 \openout1 = `Assignment1_COS301_TeamBravo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -198,7 +194,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen109
@@ -296,7 +293,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
  [3] [4]
 [5] [6] [7]
-Overfull \hbox (0.8071pt too wide) in paragraph at lines 204--205
+Overfull \hbox (0.8071pt too wide) in paragraph at lines 212--213
 []\OT1/cmr/m/n/10.95 Data rep-re-sen-ta-tion via bar charts of the units ac-cu-
 mu-lated by re-searchers through-
  []
@@ -312,14 +309,14 @@ File: ../Images/DatabaseConnectionUC.jpg Graphic file (type jpg)
 
 <use ../Images/DatabaseConnectionUC.jpg>
 Package pdftex.def Info: ../Images/DatabaseConnectionUC.jpg used on input line 
-278.
+286.
 (pdftex.def)             Requested size: 416.9055pt x 261.40472pt.
  [9]
 <../Images/UserGateawayUC.jpg, id=252, 903.375pt x 598.235pt>
 File: ../Images/UserGateawayUC.jpg Graphic file (type jpg)
 
 <use ../Images/UserGateawayUC.jpg>
-Package pdftex.def Info: ../Images/UserGateawayUC.jpg used on input line 282.
+Package pdftex.def Info: ../Images/UserGateawayUC.jpg used on input line 290.
 (pdftex.def)             Requested size: 416.9055pt x 276.08601pt.
  [10 <../Images/DatabaseConnectionUC.jpg>]
 <../Images/ResearchpapermanagementUC.jpg, id=257, 893.3375pt x 566.115pt>
@@ -327,7 +324,7 @@ File: ../Images/ResearchpapermanagementUC.jpg Graphic file (type jpg)
 
 <use ../Images/ResearchpapermanagementUC.jpg>
 Package pdftex.def Info: ../Images/ResearchpapermanagementUC.jpg used on input 
-line 286.
+line 294.
 (pdftex.def)             Requested size: 416.9055pt x 264.19958pt.
 
 <../Images/UserAccountManagementUC.jpg, id=258, 893.3375pt x 656.4525pt>
@@ -335,14 +332,14 @@ File: ../Images/UserAccountManagementUC.jpg Graphic file (type jpg)
 
 <use ../Images/UserAccountManagementUC.jpg>
 Package pdftex.def Info: ../Images/UserAccountManagementUC.jpg used on input li
-ne 290.
+ne 298.
 (pdftex.def)             Requested size: 416.9055pt x 306.3591pt.
  [11 <../Images/UserGateawayUC.jpg> <../Images/ResearchpapermanagementUC.jpg>]
 <../Images/LogServicesUC.jpg, id=263, 877.2775pt x 550.055pt>
 File: ../Images/LogServicesUC.jpg Graphic file (type jpg)
 
 <use ../Images/LogServicesUC.jpg>
-Package pdftex.def Info: ../Images/LogServicesUC.jpg used on input line 294.
+Package pdftex.def Info: ../Images/LogServicesUC.jpg used on input line 302.
 (pdftex.def)             Requested size: 416.9055pt x 261.40472pt.
 
 <../Images/NotificationServicesUC.jpg, id=264, 819.06pt x 502.87875pt>
@@ -350,7 +347,7 @@ File: ../Images/NotificationServicesUC.jpg Graphic file (type jpg)
 
 <use ../Images/NotificationServicesUC.jpg>
 Package pdftex.def Info: ../Images/NotificationServicesUC.jpg used on input lin
-e 298.
+e 306.
 (pdftex.def)             Requested size: 416.9055pt x 255.97368pt.
  [12 <../Images/UserAccountManagementUC.jpg> <../Images/LogServicesUC.jpg>] [13
  <../Images/NotificationServicesUC.jpg>]
@@ -359,7 +356,7 @@ pt>
 File: ../Images/Server_Connection_Sequence_Diagram.png Graphic file (type png)
  <use ../Images/Server_Connection_Sequence_Diagram.png>
 Package pdftex.def Info: ../Images/Server_Connection_Sequence_Diagram.png used 
-on input line 308.
+on input line 316.
 (pdftex.def)             Requested size: 416.9055pt x 286.29181pt.
  [14 <../Images/Server_Connection_Sequence_Diagram.png>]
 <../Images/Database_Connection_Activity_Diagram.png, id=279, 469.755pt x 440.64
@@ -368,7 +365,7 @@ File: ../Images/Database_Connection_Activity_Diagram.png Graphic file (type png
 )
  <use ../Images/Database_Connection_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Database_Connection_Activity_Diagram.png use
-d on input line 314.
+d on input line 322.
 (pdftex.def)             Requested size: 416.9055pt x 391.07124pt.
  [15 <../Images/Database_Connection_Activity_Diagram.png>]
 <../Images/Login_Activity_Diagram.png, id=285, 549.05125pt x 376.40625pt>
@@ -376,7 +373,7 @@ File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Login_Activity_Diagram.png used on input lin
-e 320.
+e 328.
 (pdftex.def)             Requested size: 416.9055pt x 285.819pt.
  [16 <../Images/Login_Activity_Diagram.png>]
 <../Images/Logout_Activity_Diagram.png, id=290, 462.72874pt x 421.575pt>
@@ -384,7 +381,7 @@ File: ../Images/Logout_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Logout_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Logout_Activity_Diagram.png used on input li
-ne 326.
+ne 334.
 (pdftex.def)             Requested size: 416.9055pt x 379.8321pt.
  [17 <../Images/Logout_Activity_Diagram.png>]
 <../Images/addNewUser_Activity_Diagram.png, id=295, 795.97375pt x 572.1375pt>
@@ -392,7 +389,7 @@ File: ../Images/addNewUser_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/addNewUser_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/addNewUser_Activity_Diagram.png used on inpu
-t line 332.
+t line 340.
 (pdftex.def)             Requested size: 416.9055pt x 299.66081pt.
  [18 <../Images/addNewUser_Activity_Diagram.png>]
 <../Images/newAuthor_Activity_Diagram.png, id=301, 513.92pt x 419.5675pt>
@@ -400,47 +397,37 @@ File: ../Images/newAuthor_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/newAuthor_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/newAuthor_Activity_Diagram.png used on input
- line 338.
+ line 346.
 (pdftex.def)             Requested size: 416.9055pt x 340.36638pt.
 
 <../Images/DomainModel.png, id=302, 1829.83624pt x 1288.815pt>
 File: ../Images/DomainModel.png Graphic file (type png)
 
 <use ../Images/DomainModel.png>
-Package pdftex.def Info: ../Images/DomainModel.png used on input line 343.
+Package pdftex.def Info: ../Images/DomainModel.png used on input line 351.
 (pdftex.def)             Requested size: 416.9055pt x 293.6287pt.
  [19 <../Images/newAuthor_Activity_Diagram.png>] [20 <../Images/DomainModel.png
  (PNG copy)>]
 (./Assignment1_COS301_TeamBravo.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
- [21pdfTeX warning (ext4): destination with the same identifier (name{cite.ref}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.359 \end{document}
-                    ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./Assignment1_COS301_TeamBravo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 71F26268C9C5D7A457B62BB39D88E2F1;2808.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 5388 strings out of 493089
- 82412 string characters out of 6134843
- 163842 words of memory out of 5000000
+ 5387 strings out of 493089
+ 82402 string characters out of 6134843
+ 163803 words of memory out of 5000000
  8758 multiletter control sequences out of 15000+600000
  9753 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,28p,347b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,28p,347b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -448,10 +435,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (22 pages, 1230446 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (22 pages, 1230158 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
  383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
