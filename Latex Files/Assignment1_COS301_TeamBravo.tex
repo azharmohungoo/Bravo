@@ -113,11 +113,6 @@
 		\item Protocols needed for the application: Session Initiation Protocol (SIP)
 	\end{itemize}
 	
-	\subsubsection{API specification (UML form) and technology specific API specification}
-	\begin{itemize}
-		\item UML diagram here
-	\end{itemize}
-	
 	\subsubsection{Integration quality requirements}
 	\begin{itemize}
 		\item Reliability - The service must not crash, it must run effectively and efficiently allowing users to make use of the service at all times.
@@ -212,189 +207,210 @@
 		\item Data representation via bar charts of the units accumulated by researchers throughout the past years
 	\end{itemize}
 	
+	\newpage
+	
 	\subsection{Use case/Services contracts}
-	\begin{itemize}
-		\item Login user
+		\subsubsection{Login user}
 		\begin{itemize}
 			\item \textbf{Description: }The ability for a user to login to the system
 			\item \textbf{Pre-Condition: }A user name and password must be provided by the user attempting to login. The username must exist in the database and the password needs to be the same as the one found within the database. 
 			\item \textbf{Post-Condition: }The user will be notified the login was successful and now has the privledges associated with the account.
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/Loginuser.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Loginuser.png}\\[0.5cm]
 		\end{center}
-		\item Register User
+		\newpage
+		 \subsubsection{Register User}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to create a new account within the system
 			\item \textbf{Pre-Condition: }The user must provide a username, password and email address that will be associated with the created account. The username must also not already exist within the database. 
 			\item \textbf{Post-Condition: }The account needs to be created and exist within the database
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/RegisterUser.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/RegisterUser.png}\\[0.5cm]
 		\end{center}
-		\item View paper
+		\newpage
+		\subsubsection{View paper}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to view the meta-data related to a research paper
 			\item \textbf{Pre-Condition: }The user attempting to view the paper must be an author of the paper or have sufficent privledge.
 			\item \textbf{Post-Condition: }The data of the paper in question must be displayed to the user.
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/ViewPaper.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/ViewPaper.png}\\[0.5cm]
 		\end{center}
-		\item Modify paper
+		\newpage
+		\subsubsection{Modify paper}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to edit the meta-data related to a research paper.
 			\item \textbf{Pre-Condition: }The user attempting to edit the paper must be an author of the paper or have sufficent privledge.
 			\item \textbf{Post-Condition: }The paper's meta-data needs to be altered in the desired way.
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/ModifyPaper.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/ModifyPaper.png}\\[0.5cm]
 		\end{center}
-		\item Publish paper
+		\newpage
+		\subsubsection{Publish paper}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to set a paper within the system as published and discontinue work on it.
 			\item \textbf{Pre-Condition: }A user with sufficient priveledge should be making this action
 			\item \textbf{Post-Condition: }The paper is set as published and the group is dissolved.
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/Publishpaper.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Publishpaper.png}\\[0.5cm]
 		\end{center}
-		\item Terminate paper
+		\newpage
+		\subsubsection{Terminate paper}
 		\begin{itemize}
 			\item \textbf{Description: }The paper is discontinued by the current research group
 			\item \textbf{Pre-Condition: }The request has to be made by the primary-author, the admin, the Superuser or the Head of Department
 			\item \textbf{Post-Condition: }The paper is listed as discontinued
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/TerminatePaper.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/TerminatePaper.png}\\[0.5cm]
 		\end{center}
-		\item Edit Account
+		\newpage
+		\subsubsection{Edit Account}
 		\begin{itemize}
 			\item \textbf{Description: }The ability for users to edit their profiles
 			\item \textbf{Pre-Condition: }The user attempting to edit the profile must either have sufficient priveledge or must be the owner of the account
 			\item \textbf{Post-Condition: }The profile has been edited in the desired way
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/EditAccount.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/EditAccount.png}\\[0.5cm]
 		\end{center}
-		\item Remove account
+		\newpage
+		\subsubsection{Remove account}
 		\begin{itemize}
 			\item \textbf{Description: }Delete a user account from the system
 			\item \textbf{Pre-Condition: }The user attempting to delete the profile must either have sufficient priveledge or must be the owner of the account
 			\item \textbf{Post-Condition: }The profile no longer exists within the system
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/RemoveAccount.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/RemoveAccount.png}\\[0.5cm]
 		\end{center}
-		\item View user account
+		\newpage
+		\subsubsection{View user account}
 		\begin{itemize}
 			\item \textbf{Description: }The ability for a user to view an account
 			\item \textbf{Pre-Condition: }The user must be logged into their account or the user attempting to view the account must be an admin, super admin, or head of department.
 			\item \textbf{Post-Condition: }The user's account needs to be displayed for the requesting user
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/Viewaccount.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Viewaccount.png}\\[0.5cm]
 		\end{center}
-		\item Search user
+		\newpage
+		\subsubsection{Search user}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to search for users working on paper's for the same conference as well as admins, Superusers and the Head of Department to search for users based on certain criteria
 			\item \textbf{Pre-Condition: }The criteria for the desired group of users must be specified
 			\item \textbf{Post-Condition: }The user/s are presented to the user requesting
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/SearchUser.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/SearchUser.png}\\[0.5cm]
 		\end{center}
-		\item Assign co-author
+		\newpage
+		\subsubsection{Assign co-author}
 		\begin{itemize}
 			\item \textbf{Description: }A co-author is assigned to a research group
 			\item \textbf{Pre-Condition: }The user assigning the co-author must be a primary-author/admin/Superuser or Head of Department
 			\item \textbf{Post-Condition: }The co-author is linked to the research group
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/AssignCoAuthor.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/AssignCoAuthor.png}\\[0.5cm]
 		\end{center}
-		\item View recent activities
+		\newpage
+		\subsubsection{View recent activities}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to view recent actions taken by the user on the system
 			\item \textbf{Pre-Condition: }User requesting must be of sufficient priveledge
 			\item \textbf{Post-Condition: }The activities are presented to the user requesting them
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/Viewrecentactivites.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Viewrecentactivites.png}\\[0.5cm]
 		\end{center}
-		\item System events
+		\newpage
+		\subsubsection{System events}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to view logs of events that have taken place within the system
 			\item \textbf{Pre-Condition: }User requesting must be an Admin, Superuser or Head of Department
 			\item \textbf{Post-Condition: }The log of system events is presented to the user
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/SystemEvents.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/SystemEvents.png}\\[0.5cm]
 		\end{center}
-		\item Set notification
+		\newpage
+		\subsubsection{Set notification}
 		\begin{itemize}
 			\item \textbf{Description: }The ability to set who receives a notification as well as when the notification should be issued
 			\item \textbf{Pre-Condition: }The user setting the notification must be a Primary Author, Admin, Superuser or Head of Department
 			\item \textbf{Post-Condition: }The notification is set and will email the specified user at the specified time/s.
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/SetNotificaiton.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/SetNotificaiton.png}\\[0.5cm]
 		\end{center}
-		\item Revive paper
+		\newpage
+		\subsubsection{Revive paper}
 		\begin{itemize}
 			\item \textbf{Description: }Assign a terminated paper to a new research group
 			\item \textbf{Pre-Condition: }The terminated paper must exist within the system
 			\item \textbf{Post-Condition: }A new research group is created with the requesting user as the primary-author
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/RevivePaper.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/RevivePaper.png}\\[0.5cm]
 		\end{center}
-		\item Units accumulated from work on papers is reflected on ther user's profile
+		\newpage
+		\subsubsection{Units accumulated from work on papers is reflected on ther user's profile}
 		\begin{itemize}
 			\item \textbf{Description: }Units accumulated from work on papers is reflected on ther user's profile
 			\item \textbf{Pre-Condition: }A paper worth a certain number of units must be published and the user needs to be an author of the paper.
 			\item \textbf{Post-Condition: }The units are added to the user's profile and displayed when the profile is viewed
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/Units.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Units.png}\\[0.5cm]
 		\end{center}
-		\item Data representation of units accumulated
+		\newpage
+		\subsubsection{Data representation of units accumulated}
 		\begin{itemize}
 			\item \textbf{Description: }A bar chart representation of the units a user has accumulated over time
 			\item \textbf{Pre-Condition: }The user must exist and the user requesting to view the representation must be the owner of the account, an Admin, Superuser or HoD.
 			\item \textbf{Post-Condition: }The bar chart is presented to the requesting user.
 		\end{itemize}
 		\begin{center}
-			\includegraphics[width=\textwidth]{../DomainModel/Representunits.png}\\[0.5cm]
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Representunits.png}\\[0.5cm]
 		\end{center}
-	\end{itemize}
 	
 	\subsection{Required functionality}
 	
 	
 	\subsubsection{User Gateaway}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/UserGateway_UseCase.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/UserGateway_UseCase.png}\\[0.5cm]
 	\end{center}
+	\newpage
 	\subsubsection{Research Paper Management}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/ResearchPaperManagement_UseCase.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/ResearchPaperManagement_UseCase.png}\\[0.5cm]
 	\end{center}
+	\newpage
 	\subsubsection{User Account Management Services}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/UserAccountManagementServices_UseCase.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/UserAccountManagementServices_UseCase.png}\\[0.5cm]
 	\end{center}
+	\newpage
 	\subsubsection{Log Services}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/LogServices_UseCase.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/LogServices_UseCase.png}\\[0.5cm]
 	\end{center}
+	\newpage
 	\subsubsection{Notification Services}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/NotificationServices_UseCase.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/NotificationServices_UseCase.png}\\[0.5cm]
 	\end{center}
+	\newpage
 	\subsubsection{Archival Services}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/ArchivalServices_UseCase.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/ArchivalServices_UseCase.png}\\[0.5cm]
 	\end{center}
 	\newpage
 	
@@ -402,49 +418,49 @@
 	
 	\subsubsection{Server Connection}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/Server_Connection_Sequence_Diagram.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png}\\[0.5cm]
 	\end{center}
 	
 	\newpage
 	\subsubsection{Database Connection}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/database_Activity_Diagram.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/database_Activity_Diagram.png}\\[0.5cm]
 	\end{center}
 	
 	\newpage
 	\subsubsection{Register User}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/registerUser_Activity_Diagram.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png}\\[0.5cm]
 	\end{center}
 
 	\newpage
 	\subsubsection{Login}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/Login_Activity_Diagram.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png}\\[0.5cm]
 	\end{center}
 	
 
 	\newpage
 	\subsubsection{Add new User}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/addNewUser_Activity_Diagram.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png}\\[0.5cm]
 	\end{center}
 
 	\newpage
 	\subsubsection{View User Account}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/viewUserAccount_Activity_Diagram.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png}\\[0.5cm]
 	\end{center}
 	
 	\newpage
 	\subsubsection{Remove Account}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../Images/removeAccount_Activity_Diagram.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png}\\[0.5cm]
 	\end{center}
 	
 	\subsection{Domain Model}
 	\begin{center}
-		\includegraphics[width=\textwidth]{../DomainModel/Model.png}\\[0.5cm]
+		\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Model.png}\\[0.5cm]
 	\end{center}
 	
 	\section{Open Issues}
@@ -455,6 +471,7 @@
 			\item Closer to the deadline a pop up should display a message informing the user time is running out
 			\item Give the user the option to display whether they're online or not
 		\end{itemize}	
+		
 	\newpage
 	\addcontentsline{toc}{section}{References}
 	\bibliographystyle{plainurl}
