@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  4 MAR 2016 17:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  4 MAR 2016 17:03
 entering extended mode
 **Assignment1_COS301_TeamBravo.tex
 
@@ -245,7 +245,7 @@ o.out")
 o.out")
 \@outlinefile=\write3
  ("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\coverPage.tex"
-<../Images/University_of_Pretoria_Logo.PNG, id=147, 900.36375pt x 269.50688pt>
+<../Images/University_of_Pretoria_Logo.PNG, id=151, 900.36375pt x 269.50688pt>
 File: ../Images/University_of_Pretoria_Logo.PNG Graphic file (type png)
 
 <use ../Images/University_of_Pretoria_Logo.PNG>
@@ -293,7 +293,7 @@ Overfull \hbox (0.8071pt too wide) in paragraph at lines 212--213
 mu-lated by re-searchers through-
  []
 
-<../DomainModel/Loginuser.png, id=227, 397.485pt x 237.88875pt>
+<../DomainModel/Loginuser.png, id=232, 397.485pt x 237.88875pt>
 File: ../DomainModel/Loginuser.png Graphic file (type png)
 
 <use ../DomainModel/Loginuser.png>
@@ -304,7 +304,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 224--224
  [] 
  []
 
-[8] <../DomainModel/RegisterUser.png, id=232, 747.79375pt x 334.24875pt>
+[8] <../DomainModel/RegisterUser.png, id=237, 747.79375pt x 334.24875pt>
 File: ../DomainModel/RegisterUser.png Graphic file (type png)
 
 <use ../DomainModel/RegisterUser.png>
@@ -318,7 +318,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 233--233
 
 [9 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Loginuser.png (PNG copy)>
  <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/RegisterUser.png (PNG copy)
->] <../DomainModel/ViewPaper.png, id=237, 923.45pt x 234.8775pt>
+>] <../DomainModel/ViewPaper.png, id=242, 923.45pt x 234.8775pt>
 File: ../DomainModel/ViewPaper.png Graphic file (type png)
 
 <use ../DomainModel/ViewPaper.png>
@@ -329,7 +329,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 242--242
  [] 
  []
 
-<../DomainModel/ModifyPaper.png, id=238, 930.47626pt x 244.915pt>
+<../DomainModel/ModifyPaper.png, id=243, 930.47626pt x 244.915pt>
 File: ../DomainModel/ModifyPaper.png Graphic file (type png)
 
 <use ../DomainModel/ModifyPaper.png>
@@ -341,7 +341,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 251--251
  [] 
  []
 
-<../DomainModel/Publishpaper.png, id=239, 337.26pt x 222.8325pt>
+<../DomainModel/Publishpaper.png, id=244, 337.26pt x 222.8325pt>
 File: ../DomainModel/Publishpaper.png Graphic file (type png)
 
 <use ../DomainModel/Publishpaper.png>
@@ -355,7 +355,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 260--260
 
 [10 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/ViewPaper.png (PNG copy)
 > <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/ModifyPaper.png (PNG copy)
->] <../DomainModel/TerminatePaper.png, id=244, 316.18124pt x 215.80624pt>
+>] <../DomainModel/TerminatePaper.png, id=249, 316.18124pt x 215.80624pt>
 File: ../DomainModel/TerminatePaper.png Graphic file (type png)
 
 <use ../DomainModel/TerminatePaper.png>
@@ -368,7 +368,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 269--269
  []
 
 [11 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Publishpaper.png (PNG co
-py)>] <../DomainModel/EditAccount.png, id=249, 530.98375pt x 334.24875pt>
+py)>] <../DomainModel/EditAccount.png, id=254, 530.98375pt x 334.24875pt>
 File: ../DomainModel/EditAccount.png Graphic file (type png)
 
 <use ../DomainModel/EditAccount.png>
@@ -381,7 +381,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 278--278
  []
 
 [12 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/TerminatePaper.png (PNG 
-copy)>] <../DomainModel/RemoveAccount.png, id=255, 545.03625pt x 341.275pt>
+copy)>] <../DomainModel/RemoveAccount.png, id=260, 545.03625pt x 341.275pt>
 File: ../DomainModel/RemoveAccount.png Graphic file (type png)
 
 <use ../DomainModel/RemoveAccount.png>
@@ -395,7 +395,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 287--287
 
 [13 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/EditAccount.png (PNG cop
 y)> <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/RemoveAccount.png (PNG c
-opy)>] <../DomainModel/Viewaccount.png, id=260, 545.03625pt x 341.275pt>
+opy)>] <../DomainModel/Viewaccount.png, id=265, 545.03625pt x 341.275pt>
 File: ../DomainModel/Viewaccount.png Graphic file (type png)
 
 <use ../DomainModel/Viewaccount.png>
@@ -407,7 +407,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 296--296
  [] 
  []
 
-<../DomainModel/SearchUser.png, id=261, 538.01pt x 334.24875pt>
+<../DomainModel/SearchUser.png, id=266, 538.01pt x 334.24875pt>
 File: ../DomainModel/SearchUser.png Graphic file (type png)
 
 <use ../DomainModel/SearchUser.png>
@@ -425,7 +425,7 @@ Overfull \hbox (84.9771pt too wide) in paragraph at lines 310--311
 e co-author must be a primary-author/admin/Superuser
  []
 
-<../DomainModel/AssignCoAuthor.png, id=266, 337.26pt x 222.8325pt>
+<../DomainModel/AssignCoAuthor.png, id=271, 337.26pt x 222.8325pt>
 File: ../DomainModel/AssignCoAuthor.png Graphic file (type png)
 
 <use ../DomainModel/AssignCoAuthor.png>
@@ -438,7 +438,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 314--314
  []
 
 [15 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/SearchUser.png (PNG copy
-)>] <../DomainModel/Viewrecentactivites.png, id=271, 628.3475pt x 171.64125pt>
+)>] <../DomainModel/Viewrecentactivites.png, id=276, 628.3475pt x 171.64125pt>
 File: ../DomainModel/Viewrecentactivites.png Graphic file (type png)
 
 <use ../DomainModel/Viewrecentactivites.png>
@@ -450,7 +450,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 323--323
  [] 
  []
 
-<../DomainModel/SystemEvents.png, id=272, 628.3475pt x 171.64125pt>
+<../DomainModel/SystemEvents.png, id=277, 628.3475pt x 171.64125pt>
 File: ../DomainModel/SystemEvents.png Graphic file (type png)
 
 <use ../DomainModel/SystemEvents.png>
@@ -465,7 +465,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 332--332
 [16 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/AssignCoAuthor.png (PNG 
 copy)> <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Viewrecentactivites.p
 ng (PNG copy)>]
-<../DomainModel/SetNotificaiton.png, id=277, 780.9175pt x 234.8775pt>
+<../DomainModel/SetNotificaiton.png, id=282, 780.9175pt x 234.8775pt>
 File: ../DomainModel/SetNotificaiton.png Graphic file (type png)
 
 <use ../DomainModel/SetNotificaiton.png>
@@ -477,7 +477,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 341--341
  [] 
  []
 
-<../DomainModel/RevivePaper.png, id=278, 545.03625pt x 341.275pt>
+<../DomainModel/RevivePaper.png, id=283, 545.03625pt x 341.275pt>
 File: ../DomainModel/RevivePaper.png Graphic file (type png)
 
 <use ../DomainModel/RevivePaper.png>
@@ -491,7 +491,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 350--350
 
 [17 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/SystemEvents.png (PNG co
 py)> <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/SetNotificaiton.png (PN
-G copy)>] <../DomainModel/Units.png, id=283, 818.05624pt x 334.24875pt>
+G copy)>] <../DomainModel/Units.png, id=288, 818.05624pt x 334.24875pt>
 File: ../DomainModel/Units.png Graphic file (type png)
 
 <use ../DomainModel/Units.png>
@@ -504,7 +504,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 359--359
 
 [18 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/RevivePaper.png (PNG cop
 y)> <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Units.png (PNG copy)>]
-<../DomainModel/Representunits.png, id=289, 538.01pt x 334.24875pt>
+<../DomainModel/Representunits.png, id=294, 538.01pt x 334.24875pt>
 File: ../DomainModel/Representunits.png Graphic file (type png)
 
 <use ../DomainModel/Representunits.png>
@@ -516,7 +516,7 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 368--368
  [] 
  []
 
-<../Images/UserGateway_UseCase.png, id=290, 723.70375pt x 483.8075pt>
+<../Images/UserGateway_UseCase.png, id=295, 723.70375pt x 483.8075pt>
 File: ../Images/UserGateway_UseCase.png Graphic file (type png)
 
 <use ../Images/UserGateway_UseCase.png>
@@ -525,7 +525,7 @@ Package pdftex.def Info: ../Images/UserGateway_UseCase.png used on input line 3
 (pdftex.def)             Requested size: 416.9055pt x 278.71129pt.
  [19 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Representunits.png (PNG
  copy)>]
-<../Images/ResearchPaperManagement_UseCase.png, id=296, 620.3175pt x 557.08125p
+<../Images/ResearchPaperManagement_UseCase.png, id=301, 620.3175pt x 557.08125p
 t>
 File: ../Images/ResearchPaperManagement_UseCase.png Graphic file (type png)
  <use ../Images/ResearchPaperManagement_UseCase.png>
@@ -533,7 +533,7 @@ Package pdftex.def Info: ../Images/ResearchPaperManagement_UseCase.png used on
 input line 381.
 (pdftex.def)             Requested size: 416.9055pt x 374.40706pt.
  [20 <C:/Users/Diana/Documents/GitHub/Bravo/Images/UserGateway_UseCase.png>]
-<../Images/UserAccountManagementServices_UseCase.png, id=302, 692.5875pt x 635.
+<../Images/UserAccountManagementServices_UseCase.png, id=307, 692.5875pt x 635.
 37375pt>
 File: ../Images/UserAccountManagementServices_UseCase.png Graphic file (type pn
 g)
@@ -543,7 +543,7 @@ ed on input line 385.
 (pdftex.def)             Requested size: 416.9055pt x 382.47784pt.
  [21 <C:/Users/Diana/Documents/GitHub/Bravo/Images/ResearchPaperManagement_UseC
 ase.png>]
-<../Images/LogServices_UseCase.png, id=308, 457.71pt x 439.6425pt>
+<../Images/LogServices_UseCase.png, id=313, 457.71pt x 439.6425pt>
 File: ../Images/LogServices_UseCase.png Graphic file (type png)
 
 <use ../Images/LogServices_UseCase.png>
@@ -552,7 +552,7 @@ Package pdftex.def Info: ../Images/LogServices_UseCase.png used on input line 3
 (pdftex.def)             Requested size: 416.9055pt x 400.46439pt.
  [22 <C:/Users/Diana/Documents/GitHub/Bravo/Images/UserAccountManagementService
 s_UseCase.png>]
-<../Images/NotificationServices_UseCase.png, id=314, 688.5725pt x 395.4775pt>
+<../Images/NotificationServices_UseCase.png, id=319, 688.5725pt x 395.4775pt>
 File: ../Images/NotificationServices_UseCase.png Graphic file (type png)
 
 <use ../Images/NotificationServices_UseCase.png>
@@ -560,7 +560,7 @@ Package pdftex.def Info: ../Images/NotificationServices_UseCase.png used on inp
 ut line 393.
 (pdftex.def)             Requested size: 416.9055pt x 239.44867pt.
  [23 <C:/Users/Diana/Documents/GitHub/Bravo/Images/LogServices_UseCase.png>]
-<../Images/ArchivalServices_UseCase.png, id=320, 393.47pt x 443.6575pt>
+<../Images/ArchivalServices_UseCase.png, id=325, 393.47pt x 443.6575pt>
 File: ../Images/ArchivalServices_UseCase.png Graphic file (type png)
 
 <use ../Images/ArchivalServices_UseCase.png>
@@ -570,7 +570,7 @@ ine 397.
  [24 <C:/Users/Diana/Documents/GitHub/Bravo/Images/NotificationServices_UseCase
 .png>] [25 <C:/Users/Diana/Documents/GitHub/Bravo/Images/ArchivalServices_UseCa
 se.png>]
-<../Images/Server_Connection_Sequence_Diagram.png, id=332, 618.31pt x 424.58624
+<../Images/Server_Connection_Sequence_Diagram.png, id=337, 618.31pt x 424.58624
 pt>
 File: ../Images/Server_Connection_Sequence_Diagram.png Graphic file (type png)
  <use ../Images/Server_Connection_Sequence_Diagram.png>
@@ -579,7 +579,7 @@ on input line 405.
 (pdftex.def)             Requested size: 416.9055pt x 286.29181pt.
  [26 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Server_Connection_Sequence_D
 iagram.png>]
-<../Images/database_Activity_Diagram.png, id=337, 435.6275pt x 442.65375pt>
+<../Images/database_Activity_Diagram.png, id=342, 435.6275pt x 442.65375pt>
 File: ../Images/database_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/database_Activity_Diagram.png>
@@ -588,7 +588,7 @@ line 411.
 (pdftex.def)             Requested size: 416.9055pt x 423.62566pt.
  [27 <C:/Users/Diana/Documents/GitHub/Bravo/Images/database_Activity_Diagram.pn
 g>]
-<../Images/registerUser_Activity_Diagram.png, id=342, 524.96124pt x 446.66875pt
+<../Images/registerUser_Activity_Diagram.png, id=347, 524.96124pt x 446.66875pt
 >
 File: ../Images/registerUser_Activity_Diagram.png Graphic file (type png)
  <use ../Images/registerUser_Activity_Diagram.png>
@@ -597,7 +597,7 @@ put line 417.
 (pdftex.def)             Requested size: 416.9055pt x 354.73872pt.
  [28 <C:/Users/Diana/Documents/GitHub/Bravo/Images/registerUser_Activity_Diagra
 m.png>]
-<../Images/Login_Activity_Diagram.png, id=347, 466.74374pt x 524.96124pt>
+<../Images/Login_Activity_Diagram.png, id=352, 466.74374pt x 524.96124pt>
 File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
@@ -606,7 +606,7 @@ e 423.
 (pdftex.def)             Requested size: 416.9055pt x 468.92824pt.
  [29 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Login_Activity_Diagram.png>]
 
-<../Images/addNewUser_Activity_Diagram.png, id=352, 730.73pt x 587.19376pt>
+<../Images/addNewUser_Activity_Diagram.png, id=357, 730.73pt x 587.19376pt>
 File: ../Images/addNewUser_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/addNewUser_Activity_Diagram.png>
@@ -615,31 +615,40 @@ t line 430.
 (pdftex.def)             Requested size: 416.9055pt x 335.01752pt.
  [30 <C:/Users/Diana/Documents/GitHub/Bravo/Images/addNewUser_Activity_Diagram.
 png>]
-<../Images/removeAccount_Activity_Diagram.png, id=358, 628.3475pt x 308.15125pt
+<../Images/viewUserAccount_Activity_Diagram.png, id=363, 517.935pt x 233.87375p
+t>
+File: ../Images/viewUserAccount_Activity_Diagram.png Graphic file (type png)
+ <use ../Images/viewUserAccount_Activity_Diagram.png>
+Package pdftex.def Info: ../Images/viewUserAccount_Activity_Diagram.png used on
+ input line 436.
+(pdftex.def)             Requested size: 416.9055pt x 188.2626pt.
+ [31 <C:/Users/Diana/Documents/GitHub/Bravo/Images/viewUserAccount_Activity_Dia
+gram.png>]
+<../Images/removeAccount_Activity_Diagram.png, id=368, 628.3475pt x 308.15125pt
 >
 File: ../Images/removeAccount_Activity_Diagram.png Graphic file (type png)
  <use ../Images/removeAccount_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/removeAccount_Activity_Diagram.png used on i
-nput line 436.
+nput line 442.
 (pdftex.def)             Requested size: 416.9055pt x 204.4572pt.
 
-<../DomainModel/Model.png, id=359, 1454.43375pt x 1117.17375pt>
+<../DomainModel/Model.png, id=369, 1454.43375pt x 1117.17375pt>
 File: ../DomainModel/Model.png Graphic file (type png)
 
 <use ../DomainModel/Model.png>
-Package pdftex.def Info: ../DomainModel/Model.png used on input line 441.
+Package pdftex.def Info: ../DomainModel/Model.png used on input line 447.
 (pdftex.def)             Requested size: 416.9055pt x 320.22182pt.
- [31 <C:/Users/Diana/Documents/GitHub/Bravo/Images/removeAccount_Activity_Diagr
+ [32 <C:/Users/Diana/Documents/GitHub/Bravo/Images/removeAccount_Activity_Diagr
 am.png> <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Model.png (PNG copy)
->] [32]
+>] [33]
 No file Assignment1_COS301_TeamBravo.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
 
 ("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
 o.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 463.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 463.
 
 
 Package rerunfilecheck Warning: File `Assignment1_COS301_TeamBravo.out' has cha
@@ -648,18 +657,18 @@ nged.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Assignment1_COS301_TeamBravo.out':
-(rerunfilecheck)             Before: 6420E4E9D43E62489D87ECB56740BB33;2663
-(rerunfilecheck)             After:  59C373B2D0991F8AE4EFEEBC41B96825;2662.
+(rerunfilecheck)             Before: 9F41036E5F59990607F237AE52A1613B;2740
+(rerunfilecheck)             After:  6E7E083A1B522046D74C2DDAAAD677F4;2740.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 463.
  ) 
 Here is how much of TeX's memory you used:
- 5365 strings out of 493921
- 83291 string characters out of 3147282
+ 5373 strings out of 493921
+ 83577 string characters out of 3147282
  156534 words of memory out of 3000000
- 8532 multiletter control sequences out of 15000+200000
+ 8537 multiletter control sequences out of 15000+200000
  9753 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,6n,28p,347b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -670,9 +679,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (33 pages, 1682513 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (34 pages, 1694279 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 444 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
