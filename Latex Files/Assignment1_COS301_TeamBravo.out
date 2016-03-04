@@ -1,44 +1,3 @@
-<<<<<<< HEAD
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Vision}{}% 2
-\BOOKMARK [1][-]{section.3}{Background}{}% 3
-\BOOKMARK [1][-]{section.4}{Architecture Requirements}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Access channel requirements}{section.4}% 5
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Web Application}{subsection.4.1}% 6
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Mobile Application}{subsection.4.1}% 7
-\BOOKMARK [2][-]{subsection.4.2}{Quality requirements}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.3}{Integration requirements}{section.4}% 9
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Integration channels}{subsection.4.3}% 10
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Protocols}{subsection.4.3}% 11
-\BOOKMARK [3][-]{subsubsection.4.3.3}{API specification \(UML form\) and technology specific API specification}{subsection.4.3}% 12
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Integration quality requirements}{subsection.4.3}% 13
-\BOOKMARK [2][-]{subsection.4.4}{Architecture constraints}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{Functional requirements and application design}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{Use case prioritization}{section.5}% 16
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Critical:}{subsection.5.1}% 17
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Important:}{subsection.5.1}% 18
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Nice-To-Have:}{subsection.5.1}% 19
-\BOOKMARK [2][-]{subsection.5.2}{Use case/Services contracts}{section.5}% 20
-\BOOKMARK [2][-]{subsection.5.3}{Required functionality}{section.5}% 21
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Server Connection}{subsection.5.3}% 22
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Database Connection}{subsection.5.3}% 23
-\BOOKMARK [3][-]{subsubsection.5.3.3}{User Gateaway}{subsection.5.3}% 24
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Research paper management}{subsection.5.3}% 25
-\BOOKMARK [3][-]{subsubsection.5.3.5}{User Account management}{subsection.5.3}% 26
-\BOOKMARK [3][-]{subsubsection.5.3.6}{Log Services}{subsection.5.3}% 27
-\BOOKMARK [3][-]{subsubsection.5.3.7}{Notification Services}{subsection.5.3}% 28
-\BOOKMARK [3][-]{subsubsection.5.3.8}{Archival Services}{subsection.5.3}% 29
-\BOOKMARK [2][-]{subsection.5.4}{Process specifications}{section.5}% 30
-\BOOKMARK [3][-]{subsubsection.5.4.1}{Server Connection}{subsection.5.4}% 31
-\BOOKMARK [3][-]{subsubsection.5.4.2}{Database Connection}{subsection.5.4}% 32
-\BOOKMARK [3][-]{subsubsection.5.4.3}{Login}{subsection.5.4}% 33
-\BOOKMARK [3][-]{subsubsection.5.4.4}{Logout}{subsection.5.4}% 34
-\BOOKMARK [3][-]{subsubsection.5.4.5}{add new User}{subsection.5.4}% 35
-\BOOKMARK [3][-]{subsubsection.5.4.6}{New Author}{subsection.5.4}% 36
-\BOOKMARK [2][-]{subsection.5.5}{Domain Model}{section.5}% 37
-\BOOKMARK [1][-]{section.6}{Open Issues}{}% 38
-\BOOKMARK [1][-]{section.6}{References}{}% 39
-=======
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Vision}{}% 2
 \BOOKMARK [1][-]{section.3}{Background}{}% 3
@@ -93,4 +52,3 @@
 \BOOKMARK [2][-]{subsection.5.5}{Domain Model}{section.5}% 52
 \BOOKMARK [1][-]{section.6}{Open Issues}{}% 53
 \BOOKMARK [1][-]{section.6}{References}{}% 54
->>>>>>> b349ea53f0af8ca0737104be6cd4bbf772775720
