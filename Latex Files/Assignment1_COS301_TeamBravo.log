@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  4 MAR 2016 16:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  4 MAR 2016 17:00
 entering extended mode
 **Assignment1_COS301_TeamBravo.tex
 
@@ -615,13 +615,13 @@ t line 430.
 (pdftex.def)             Requested size: 416.9055pt x 335.01752pt.
  [30 <C:/Users/Diana/Documents/GitHub/Bravo/Images/addNewUser_Activity_Diagram.
 png>]
-<../Images/newAuthor_Activity_Diagram.png, id=358, 513.92pt x 419.5675pt>
-File: ../Images/newAuthor_Activity_Diagram.png Graphic file (type png)
-
-<use ../Images/newAuthor_Activity_Diagram.png>
-Package pdftex.def Info: ../Images/newAuthor_Activity_Diagram.png used on input
- line 436.
-(pdftex.def)             Requested size: 416.9055pt x 340.36638pt.
+<../Images/removeAccount_Activity_Diagram.png, id=358, 628.3475pt x 308.15125pt
+>
+File: ../Images/removeAccount_Activity_Diagram.png Graphic file (type png)
+ <use ../Images/removeAccount_Activity_Diagram.png>
+Package pdftex.def Info: ../Images/removeAccount_Activity_Diagram.png used on i
+nput line 436.
+(pdftex.def)             Requested size: 416.9055pt x 204.4572pt.
 
 <../DomainModel/Model.png, id=359, 1454.43375pt x 1117.17375pt>
 File: ../DomainModel/Model.png Graphic file (type png)
@@ -629,9 +629,9 @@ File: ../DomainModel/Model.png Graphic file (type png)
 <use ../DomainModel/Model.png>
 Package pdftex.def Info: ../DomainModel/Model.png used on input line 441.
 (pdftex.def)             Requested size: 416.9055pt x 320.22182pt.
- [31 <C:/Users/Diana/Documents/GitHub/Bravo/Images/newAuthor_Activity_Diagram.p
-ng>] [32 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Model.png (PNG copy
-)>]
+ [31 <C:/Users/Diana/Documents/GitHub/Bravo/Images/removeAccount_Activity_Diagr
+am.png> <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Model.png (PNG copy)
+>] [32]
 No file Assignment1_COS301_TeamBravo.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
@@ -648,8 +648,8 @@ nged.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Assignment1_COS301_TeamBravo.out':
-(rerunfilecheck)             Before: D8462C1F3E84FAFA3858B10A469E4E25;2651
-(rerunfilecheck)             After:  07593EE83EE53D9A69E62F88D8443970;2653.
+(rerunfilecheck)             Before: 6420E4E9D43E62489D87ECB56740BB33;2663
+(rerunfilecheck)             After:  59C373B2D0991F8AE4EFEEBC41B96825;2662.
 
 LaTeX Warning: There were undefined references.
 
@@ -657,7 +657,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
  ) 
 Here is how much of TeX's memory you used:
  5365 strings out of 493921
- 83271 string characters out of 3147282
+ 83291 string characters out of 3147282
  156534 words of memory out of 3000000
  8532 multiletter control sequences out of 15000+200000
  9753 words of font info for 34 fonts, out of 3000000 for 9000
@@ -670,7 +670,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (33 pages, 1684245 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (33 pages, 1682513 bytes).
 PDF statistics:
  408 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
