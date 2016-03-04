@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.21)  4 MAR 2016 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.21)  4 MAR 2016 21:52
 entering extended mode
 **"C:/Users/Fred/Documents/COS 301/gitHub/Latex Files/Assignment1_COS301_TeamBr
 avo.tex"
@@ -239,7 +239,7 @@ LaTeX Info: Redefining \nameref on input line 20.
 
 
 (coverPage.tex
-<../Diagrams/Images/University_of_Pretoria_Logo.PNG, id=218, 900.36375pt x 269.
+<../Diagrams/Images/University_of_Pretoria_Logo.PNG, id=182, 900.36375pt x 269.
 50688pt>
 File: ../Diagrams/Images/University_of_Pretoria_Logo.PNG Graphic file (type png
 )
@@ -261,7 +261,7 @@ eX warning (ext4): destination with the same identifier (name{page.1}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 ...cent activities}{20}{subsubsection.5.2.12}
+l.30 ...Paper Management}{24}{subsubsection.5.3.2}
                                                    [1])
 \tf@toc=\write4
 \openout4 = `Assignment1_COS301_TeamBravo.toc'.
@@ -279,313 +279,312 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
  [3] [4]
-[5] [6] [7]
-Overfull \hbox (0.8071pt too wide) in paragraph at lines 202--203
+Overfull \hbox (0.8071pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/m/n/10.95 Data rep-re-sen-ta-tion via bar charts of the units ac-cu-
 mu-lated by re-searchers through-
  []
 
-[8] <../Diagrams/DomainModel/Loginuser.png, id=319, 397.485pt x 237.88875pt>
+[5] <../Diagrams/DomainModel/Loginuser.png, id=261, 397.485pt x 237.88875pt>
 File: ../Diagrams/DomainModel/Loginuser.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/Loginuser.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/Loginuser.png used on input li
-ne 215.
+ne 149.
 (pdftex.def)             Requested size: 416.9055pt x 249.5183pt.
- [9 <../Diagrams/DomainModel/Loginuser.png (PNG copy)>]
-<../Diagrams/DomainModel/RegisterUser.png, id=324, 747.79375pt x 334.24875pt>
+ [6 <../Diagrams/DomainModel/Loginuser.png (PNG copy)>]
+<../Diagrams/DomainModel/RegisterUser.png, id=267, 747.79375pt x 334.24875pt>
 File: ../Diagrams/DomainModel/RegisterUser.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/RegisterUser.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/RegisterUser.png used on input
- line 225.
+ line 159.
 (pdftex.def)             Requested size: 416.9055pt x 186.34668pt.
- [10 <../Diagrams/DomainModel/RegisterUser.png (PNG copy)>]
-<../Diagrams/DomainModel/ViewPaper.png, id=329, 923.45pt x 234.8775pt>
+ [7 <../Diagrams/DomainModel/RegisterUser.png (PNG copy)>]
+<../Diagrams/DomainModel/ViewPaper.png, id=272, 923.45pt x 234.8775pt>
 File: ../Diagrams/DomainModel/ViewPaper.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/ViewPaper.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/ViewPaper.png used on input li
-ne 235.
+ne 169.
 (pdftex.def)             Requested size: 416.9055pt x 106.03795pt.
- [11 <../Diagrams/DomainModel/ViewPaper.png (PNG copy)>]
-<../Diagrams/DomainModel/ModifyPaper.png, id=334, 930.47626pt x 244.915pt>
+ [8 <../Diagrams/DomainModel/ViewPaper.png (PNG copy)>]
+<../Diagrams/DomainModel/ModifyPaper.png, id=277, 930.47626pt x 244.915pt>
 File: ../Diagrams/DomainModel/ModifyPaper.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/ModifyPaper.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/ModifyPaper.png used on input 
-line 245.
+line 179.
 (pdftex.def)             Requested size: 416.9055pt x 109.7361pt.
- [12 <../Diagrams/DomainModel/ModifyPaper.png (PNG copy)>]
-<../Diagrams/DomainModel/Publishpaper.png, id=340, 337.26pt x 222.8325pt>
+ [9 <../Diagrams/DomainModel/ModifyPaper.png (PNG copy)>]
+<../Diagrams/DomainModel/Publishpaper.png, id=282, 337.26pt x 222.8325pt>
 File: ../Diagrams/DomainModel/Publishpaper.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/Publishpaper.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/Publishpaper.png used on input
- line 255.
+ line 189.
 (pdftex.def)             Requested size: 416.9055pt x 275.4628pt.
- [13 <../Diagrams/DomainModel/Publishpaper.png (PNG copy)>]
-<../Diagrams/DomainModel/TerminatePaper.png, id=345, 316.18124pt x 215.80624pt>
+ [10 <../Diagrams/DomainModel/Publishpaper.png (PNG copy)>]
+<../Diagrams/DomainModel/TerminatePaper.png, id=287, 316.18124pt x 215.80624pt>
 File: ../Diagrams/DomainModel/TerminatePaper.png Graphic file (type png)
 <use ../Diagrams/DomainModel/TerminatePaper.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/TerminatePaper.png used on inp
-ut line 265.
+ut line 199.
 (pdftex.def)             Requested size: 416.9055pt x 284.57533pt.
- [14 <../Diagrams/DomainModel/TerminatePaper.png (PNG copy)>]
-<../Diagrams/DomainModel/EditAccount.png, id=350, 530.98375pt x 334.24875pt>
+ [11 <../Diagrams/DomainModel/TerminatePaper.png (PNG copy)>]
+<../Diagrams/DomainModel/EditAccount.png, id=292, 530.98375pt x 334.24875pt>
 File: ../Diagrams/DomainModel/EditAccount.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/EditAccount.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/EditAccount.png used on input 
-line 275.
+line 209.
 (pdftex.def)             Requested size: 416.9055pt x 262.44194pt.
- [15 <../Diagrams/DomainModel/EditAccount.png (PNG copy)>]
-<../Diagrams/DomainModel/RemoveAccount.png, id=355, 545.03625pt x 341.275pt>
+ [12 <../Diagrams/DomainModel/EditAccount.png (PNG copy)>]
+<../Diagrams/DomainModel/RemoveAccount.png, id=298, 545.03625pt x 341.275pt>
 File: ../Diagrams/DomainModel/RemoveAccount.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/RemoveAccount.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/RemoveAccount.png used on inpu
-t line 285.
+t line 219.
 (pdftex.def)             Requested size: 416.9055pt x 261.04327pt.
- [16 <../Diagrams/DomainModel/RemoveAccount.png (PNG copy)>]
-<../Diagrams/DomainModel/Viewaccount.png, id=360, 545.03625pt x 341.275pt>
+ [13 <../Diagrams/DomainModel/RemoveAccount.png (PNG copy)>]
+<../Diagrams/DomainModel/Viewaccount.png, id=303, 545.03625pt x 341.275pt>
 File: ../Diagrams/DomainModel/Viewaccount.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/Viewaccount.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/Viewaccount.png used on input 
-line 295.
+line 229.
 (pdftex.def)             Requested size: 416.9055pt x 261.04327pt.
- [17 <../Diagrams/DomainModel/Viewaccount.png (PNG copy)>]
-<../Diagrams/DomainModel/SearchUser.png, id=365, 538.01pt x 334.24875pt>
+ [14 <../Diagrams/DomainModel/Viewaccount.png (PNG copy)>]
+<../Diagrams/DomainModel/SearchUser.png, id=308, 538.01pt x 334.24875pt>
 File: ../Diagrams/DomainModel/SearchUser.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/SearchUser.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/SearchUser.png used on input l
-ine 305.
+ine 239.
 (pdftex.def)             Requested size: 416.9055pt x 259.00949pt.
- [18 <../Diagrams/DomainModel/SearchUser.png (PNG copy)>]
-Overfull \hbox (60.88707pt too wide) in paragraph at lines 311--312
+ [15 <../Diagrams/DomainModel/SearchUser.png (PNG copy)>]
+Overfull \hbox (60.88707pt too wide) in paragraph at lines 245--246
 []\OT1/cmr/bx/n/10.95 Pre-Condition: \OT1/cmr/m/n/10.95 The user as-sign-ing th
 e co-author must be a primary-author/admin/Superuser
  []
 
-<../Diagrams/DomainModel/AssignCoAuthor.png, id=371, 337.26pt x 222.8325pt>
+<../Diagrams/DomainModel/AssignCoAuthor.png, id=313, 337.26pt x 222.8325pt>
 File: ../Diagrams/DomainModel/AssignCoAuthor.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/AssignCoAuthor.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/AssignCoAuthor.png used on inp
-ut line 315.
+ut line 249.
 (pdftex.def)             Requested size: 416.9055pt x 275.4628pt.
- [19 <../Diagrams/DomainModel/AssignCoAuthor.png (PNG copy)>]
-<../Diagrams/DomainModel/Viewrecentactivites.png, id=376, 628.3475pt x 171.6412
+ [16 <../Diagrams/DomainModel/AssignCoAuthor.png (PNG copy)>]
+<../Diagrams/DomainModel/Viewrecentactivites.png, id=318, 628.3475pt x 171.6412
 5pt>
 File: ../Diagrams/DomainModel/Viewrecentactivites.png Graphic file (type png)
  <use ../Diagrams/DomainModel/Viewrecentactivites.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/Viewrecentactivites.png used o
-n input line 325.
+n input line 259.
 (pdftex.def)             Requested size: 416.9055pt x 113.88332pt.
- [20 <../Diagrams/DomainModel/Viewrecentactivites.png (PNG copy)>]
-<../Diagrams/DomainModel/SystemEvents.png, id=381, 628.3475pt x 171.64125pt>
+ [17 <../Diagrams/DomainModel/Viewrecentactivites.png (PNG copy)>]
+<../Diagrams/DomainModel/SystemEvents.png, id=323, 628.3475pt x 171.64125pt>
 File: ../Diagrams/DomainModel/SystemEvents.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/SystemEvents.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/SystemEvents.png used on input
- line 335.
+ line 269.
 (pdftex.def)             Requested size: 416.9055pt x 113.88332pt.
- [21 <../Diagrams/DomainModel/SystemEvents.png (PNG copy)>]
-<../Diagrams/DomainModel/SetNotificaiton.png, id=386, 780.9175pt x 234.8775pt>
+ [18 <../Diagrams/DomainModel/SystemEvents.png (PNG copy)>]
+<../Diagrams/DomainModel/SetNotificaiton.png, id=329, 780.9175pt x 234.8775pt>
 File: ../Diagrams/DomainModel/SetNotificaiton.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/SetNotificaiton.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/SetNotificaiton.png used on in
-put line 345.
+put line 279.
 (pdftex.def)             Requested size: 416.9055pt x 125.3912pt.
- [22 <../Diagrams/DomainModel/SetNotificaiton.png (PNG copy)>]
-<../Diagrams/DomainModel/RevivePaper.png, id=391, 545.03625pt x 341.275pt>
+ [19 <../Diagrams/DomainModel/SetNotificaiton.png (PNG copy)>]
+<../Diagrams/DomainModel/RevivePaper.png, id=334, 545.03625pt x 341.275pt>
 File: ../Diagrams/DomainModel/RevivePaper.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/RevivePaper.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/RevivePaper.png used on input 
-line 355.
+line 289.
 (pdftex.def)             Requested size: 416.9055pt x 261.04327pt.
- [23 <../Diagrams/DomainModel/RevivePaper.png (PNG copy)>]
-<../Diagrams/DomainModel/Units.png, id=396, 818.05624pt x 334.24875pt>
+ [20 <../Diagrams/DomainModel/RevivePaper.png (PNG copy)>]
+<../Diagrams/DomainModel/Units.png, id=339, 818.05624pt x 334.24875pt>
 File: ../Diagrams/DomainModel/Units.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/Units.png>
-Package pdftex.def Info: ../Diagrams/DomainModel/Units.png used on input line 3
-65.
+Package pdftex.def Info: ../Diagrams/DomainModel/Units.png used on input line 2
+99.
 (pdftex.def)             Requested size: 416.9055pt x 170.34729pt.
- [24 <../Diagrams/DomainModel/Units.png (PNG copy)>]
-<../Diagrams/DomainModel/Representunits.png, id=402, 538.01pt x 334.24875pt>
+ [21 <../Diagrams/DomainModel/Units.png (PNG copy)>]
+<../Diagrams/DomainModel/Representunits.png, id=344, 538.01pt x 334.24875pt>
 File: ../Diagrams/DomainModel/Representunits.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/Representunits.png>
 Package pdftex.def Info: ../Diagrams/DomainModel/Representunits.png used on inp
-ut line 375.
+ut line 309.
 (pdftex.def)             Requested size: 416.9055pt x 259.00949pt.
 
-<../Diagrams/UseCases/UserGateway_UseCase.png, id=403, 723.70375pt x 483.8075pt
+<../Diagrams/UseCases/UserGateway_UseCase.png, id=345, 723.70375pt x 483.8075pt
 >
 File: ../Diagrams/UseCases/UserGateway_UseCase.png Graphic file (type png)
  <use ../Diagrams/UseCases/UserGateway_UseCase.png>
 Package pdftex.def Info: ../Diagrams/UseCases/UserGateway_UseCase.png used on i
-nput line 383.
+nput line 317.
 (pdftex.def)             Requested size: 416.9055pt x 278.71129pt.
- [25 <../Diagrams/DomainModel/Representunits.png (PNG copy)>] [26 <../Diagrams/
+ [22 <../Diagrams/DomainModel/Representunits.png (PNG copy)>] [23 <../Diagrams/
 UseCases/UserGateway_UseCase.png>]
-<../Diagrams/UseCases/ResearchPaperManagement_UseCase.png, id=414, 620.3175pt x
+<../Diagrams/UseCases/ResearchPaperManagement_UseCase.png, id=356, 620.3175pt x
  557.08125pt>
 File: ../Diagrams/UseCases/ResearchPaperManagement_UseCase.png Graphic file (ty
 pe png)
  <use ../Diagrams/UseCases/ResearchPaperManagement_UseCase.png>
 Package pdftex.def Info: ../Diagrams/UseCases/ResearchPaperManagement_UseCase.p
-ng used on input line 388.
+ng used on input line 322.
 (pdftex.def)             Requested size: 416.9055pt x 374.40706pt.
 
-[27 <../Diagrams/UseCases/ResearchPaperManagement_UseCase.png>]
-<../Diagrams/UseCases/UserAccountManagementServices_UseCase.png, id=420, 692.58
+[24 <../Diagrams/UseCases/ResearchPaperManagement_UseCase.png>]
+<../Diagrams/UseCases/UserAccountManagementServices_UseCase.png, id=363, 692.58
 75pt x 635.37375pt>
 File: ../Diagrams/UseCases/UserAccountManagementServices_UseCase.png Graphic fi
 le (type png)
 
 <use ../Diagrams/UseCases/UserAccountManagementServices_UseCase.png>
 Package pdftex.def Info: ../Diagrams/UseCases/UserAccountManagementServices_Use
-Case.png used on input line 393.
+Case.png used on input line 327.
 (pdftex.def)             Requested size: 416.9055pt x 382.47784pt.
- [28 <../Diagrams/UseCases/UserAccountManagementServices_UseCase.png>]
-<../Diagrams/UseCases/LogServices_UseCase.png, id=426, 457.71pt x 439.6425pt>
+ [25 <../Diagrams/UseCases/UserAccountManagementServices_UseCase.png>]
+<../Diagrams/UseCases/LogServices_UseCase.png, id=369, 457.71pt x 439.6425pt>
 File: ../Diagrams/UseCases/LogServices_UseCase.png Graphic file (type png)
 
 <use ../Diagrams/UseCases/LogServices_UseCase.png>
 Package pdftex.def Info: ../Diagrams/UseCases/LogServices_UseCase.png used on i
-nput line 398.
+nput line 332.
 (pdftex.def)             Requested size: 416.9055pt x 400.46439pt.
- [29 <../Diagrams/UseCases/LogServices_UseCase.png>]
-<../Diagrams/UseCases/NotificationServices_UseCase.png, id=432, 688.5725pt x 39
+ [26 <../Diagrams/UseCases/LogServices_UseCase.png>]
+<../Diagrams/UseCases/NotificationServices_UseCase.png, id=375, 688.5725pt x 39
 5.4775pt>
 File: ../Diagrams/UseCases/NotificationServices_UseCase.png Graphic file (type 
 png)
  <use ../Diagrams/UseCases/NotificationServices_UseCase.png>
 Package pdftex.def Info: ../Diagrams/UseCases/NotificationServices_UseCase.png 
-used on input line 403.
+used on input line 337.
 (pdftex.def)             Requested size: 416.9055pt x 239.44867pt.
- [30 <../Diagrams/UseCases/NotificationServices_UseCase.png>]
-<../Diagrams/UseCases/ArchivalServices_UseCase.png, id=439, 393.47pt x 443.6575
+ [27 <../Diagrams/UseCases/NotificationServices_UseCase.png>]
+<../Diagrams/UseCases/ArchivalServices_UseCase.png, id=381, 393.47pt x 443.6575
 pt>
 File: ../Diagrams/UseCases/ArchivalServices_UseCase.png Graphic file (type png)
 
  <use ../Diagrams/UseCases/ArchivalServices_UseCase.png>
 Package pdftex.def Info: ../Diagrams/UseCases/ArchivalServices_UseCase.png used
- on input line 408.
+ on input line 342.
 (pdftex.def)             Requested size: 416.9055pt x 470.07837pt.
- [31 <../Diagrams/UseCases/ArchivalServices_UseCase.png>]
-<../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png, id=445, 6
+ [28 <../Diagrams/UseCases/ArchivalServices_UseCase.png>]
+<../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png, id=387, 6
 18.31pt x 424.58624pt>
 File: ../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png Graph
 ic file (type png)
 
 <use ../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png>
 Package pdftex.def Info: ../Diagrams/SequenceDiagrams/Server_Connection_Sequenc
-e_Diagram.png used on input line 416.
+e_Diagram.png used on input line 350.
 (pdftex.def)             Requested size: 416.9055pt x 286.29181pt.
 
-[32 <../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png>]
-<../Diagrams/ActivityDiagrams/database_Activity_Diagram.png, id=450, 435.6275pt
+[29 <../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png>]
+<../Diagrams/ActivityDiagrams/database_Activity_Diagram.png, id=392, 435.6275pt
  x 442.65375pt>
 File: ../Diagrams/ActivityDiagrams/database_Activity_Diagram.png Graphic file (
 type png)
 
 <use ../Diagrams/ActivityDiagrams/database_Activity_Diagram.png>
 Package pdftex.def Info: ../Diagrams/ActivityDiagrams/database_Activity_Diagram
-.png used on input line 422.
+.png used on input line 356.
 (pdftex.def)             Requested size: 416.9055pt x 423.62566pt.
- [33 <../Diagrams/ActivityDiagrams/database_Activity_Diagram.png>]
-<../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png, id=455, 524.96
+ [30 <../Diagrams/ActivityDiagrams/database_Activity_Diagram.png>]
+<../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png, id=398, 524.96
 124pt x 446.66875pt>
 File: ../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png Graphic fi
 le (type png)
 
 <use ../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png>
 Package pdftex.def Info: ../Diagrams/ActivityDiagrams/registerUser_Activity_Dia
-gram.png used on input line 428.
+gram.png used on input line 362.
 (pdftex.def)             Requested size: 416.9055pt x 354.73872pt.
- [34 <../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png>]
-<../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png, id=460, 466.74374pt x
+ [31 <../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png>]
+<../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png, id=403, 466.74374pt x
  524.96124pt>
 File: ../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png Graphic file (typ
 e png)
  <use ../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png>
 Package pdftex.def Info: ../Diagrams/ActivityDiagrams/Login_Activity_Diagram.pn
-g used on input line 434.
+g used on input line 368.
 (pdftex.def)             Requested size: 416.9055pt x 468.92824pt.
 
-[35 <../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png>]
-<../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png, id=465, 730.73pt
+[32 <../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png>]
+<../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png, id=408, 730.73pt
  x 587.19376pt>
 File: ../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png Graphic file
  (type png)
 
 <use ../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png>
 Package pdftex.def Info: ../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagr
-am.png used on input line 441.
+am.png used on input line 375.
 (pdftex.def)             Requested size: 416.9055pt x 335.01752pt.
- [36 <../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png>]
-<../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png, id=471, 517
+ [33 <../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png>]
+<../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png, id=413, 517
 .935pt x 233.87375pt>
 File: ../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png Graphic
  file (type png)
 
 <use ../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png>
 Package pdftex.def Info: ../Diagrams/ActivityDiagrams/viewUserAccount_Activity_
-Diagram.png used on input line 447.
+Diagram.png used on input line 381.
 (pdftex.def)             Requested size: 416.9055pt x 188.2626pt.
 
-[37 <../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png>]
-<../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png, id=476, 628.3
+[34 <../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png>]
+<../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png, id=418, 628.3
 475pt x 308.15125pt>
 File: ../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png Graphic f
 ile (type png)
 
 <use ../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png>
 Package pdftex.def Info: ../Diagrams/ActivityDiagrams/removeAccount_Activity_Di
-agram.png used on input line 453.
+agram.png used on input line 387.
 (pdftex.def)             Requested size: 416.9055pt x 204.4572pt.
 
-<../Diagrams/DomainModel/Model.png, id=477, 1454.43375pt x 1117.17375pt>
+<../Diagrams/DomainModel/Model.png, id=419, 1454.43375pt x 1117.17375pt>
 File: ../Diagrams/DomainModel/Model.png Graphic file (type png)
 
 <use ../Diagrams/DomainModel/Model.png>
-Package pdftex.def Info: ../Diagrams/DomainModel/Model.png used on input line 4
-58.
+Package pdftex.def Info: ../Diagrams/DomainModel/Model.png used on input line 3
+92.
 (pdftex.def)             Requested size: 416.9055pt x 320.22182pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
-[38 <../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png> <../Diagr
-ams/DomainModel/Model.png (PNG copy)>] [39] (Assignment1_COS301_TeamBravo.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
+[35 <../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png> <../Diagr
+ams/DomainModel/Model.png (PNG copy)>] [36] (Assignment1_COS301_TeamBravo.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
 
-[40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
+[37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
  (Assignment1_COS301_TeamBravo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
 Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: E5F44B5D03761E9A1A4F64B5F0EAB985;4018.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
+(rerunfilecheck)             Checksum: CCD8FE1787B96B746ED7C1B970224BAE;3320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 407.
  ) 
 Here is how much of TeX's memory you used:
- 5417 strings out of 493634
- 85737 string characters out of 3141317
+ 5396 strings out of 493634
+ 85396 string characters out of 3141317
  161042 words of memory out of 3000000
- 8642 multiletter control sequences out of 15000+200000
+ 8633 multiletter control sequences out of 15000+200000
  9753 words of font info for 34 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,6n,28p,400b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,28p,365b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
@@ -593,9 +592,9 @@ Here is how much of TeX's memory you used:
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (41 pages, 1710910 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (38 pages, 1698767 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 593 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 521 words of extra memory for PDF output out of 10000 (max. 10000000)
 
