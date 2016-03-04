@@ -1,14 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.5)  3 MAR 2016 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.20)  4 MAR 2016 13:17
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Assignment1_COS301_TeamBravo.tex
-(./Assignment1_COS301_TeamBravo.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+**./Assignment1_COS301_TeamBravo.tex
+(Assignment1_COS301_TeamBravo.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\artic
+le.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size1
+1.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,31 +25,39 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
+raphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\k
+eyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
+raphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\t
+rig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\g
+raphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def
+\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -55,16 +65,19 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
+yperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -95,7 +108,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -103,25 +116,30 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\
+ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\a
+uxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\k
+voptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen105
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\p
+d1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count90
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\h
+yperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -133,7 +151,8 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.st
+y"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -158,26 +177,29 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
+pdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\r
+erunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.
+sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
-
-(./Assignment1_COS301_TeamBravo.aux)
+ (Assignment1_COS301_TeamBravo.aux)
 \openout1 = `Assignment1_COS301_TeamBravo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -195,7 +217,8 @@ LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
+p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen109
@@ -208,37 +231,27 @@ LaTeX Font Info:    ... okay on input line 20.
 \MPnumerator=\count102
 \makeMPintoPDFobject=\count103
 \everyMPtoPDFconversion=\toks16
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \AtBeginShipoutBox=\box27
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\c
+olor.sty"
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\c
+olor.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
 Package hyperref Info: Link coloring ON on input line 20.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\n
+ameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count104
@@ -246,14 +259,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
-
-(./Assignment1_COS301_TeamBravo.out) (./Assignment1_COS301_TeamBravo.out)
+ (Assignment1_COS301_TeamBravo.out)
+(Assignment1_COS301_TeamBravo.out)
 \@outlinefile=\write3
 \openout3 = `Assignment1_COS301_TeamBravo.out'.
 
-
-(./coverPage.tex
-<../Images/University_of_Pretoria_Logo.PNG, id=159, 900.36375pt x 269.50688pt>
+ (coverPage.tex
+<../Images/University_of_Pretoria_Logo.PNG, id=158, 900.36375pt x 269.50688pt>
 File: ../Images/University_of_Pretoria_Logo.PNG Graphic file (type png)
 
 <use ../Images/University_of_Pretoria_Logo.PNG>
@@ -268,13 +280,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 24.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Imag
-es/University_of_Pretoria_Logo.PNG>]) (./Assignment1_COS301_TeamBravo.tocpdfTeX
- warning (ext4): destination with the same identifier (name{page.1}) has been a
-lready used, duplicate ignored
+{C:/Users/Dad The Gamer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../
+Images/University_of_Pretoria_Logo.PNG>]) (Assignment1_COS301_TeamBravo.tocpdfT
+eX warning (ext4): destination with the same identifier (name{page.1}) has been
+ already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 ...rocess specifications}{14}{subsection.5.4}
+l.30 ...rocess specifications}{24}{subsection.5.4}
                                                    [1])
 \tf@toc=\write4
 \openout4 = `Assignment1_COS301_TeamBravo.toc'.
@@ -286,159 +298,374 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+
+("C:\Users\Dad The Gamer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscm
+r.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
- [3] [4]
-[5] [6] [7]
+ [3] [4] [5] [6] [7]
 Overfull \hbox (0.8071pt too wide) in paragraph at lines 212--213
 []\OT1/cmr/m/n/10.95 Data rep-re-sen-ta-tion via bar charts of the units ac-cu-
 mu-lated by re-searchers through-
  []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-[8] <../Images/DatabaseConnectionUC.jpg, id=247, 877.2775pt x 550.055pt>
+<../DomainModel/Loginuser.png, id=241, 397.485pt x 237.88875pt>
+File: ../DomainModel/Loginuser.png Graphic file (type png)
+
+<use ../DomainModel/Loginuser.png>
+Package pdftex.def Info: ../DomainModel/Loginuser.png used on input line 224.
+(pdftex.def)             Requested size: 416.9055pt x 249.5183pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 224--224
+ [] 
+ []
+
+[8] <../DomainModel/RegisterUser.png, id=246, 747.79375pt x 334.24875pt>
+File: ../DomainModel/RegisterUser.png Graphic file (type png)
+
+<use ../DomainModel/RegisterUser.png>
+Package pdftex.def Info: ../DomainModel/RegisterUser.png used on input line 233
+.
+(pdftex.def)             Requested size: 416.9055pt x 186.34668pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 233--233
+ [] 
+ []
+
+[9 <../DomainModel/Loginuser.png (PNG copy)> <../DomainModel/RegisterUser.png (
+PNG copy)>] <../DomainModel/ViewPaper.png, id=251, 923.45pt x 234.8775pt>
+File: ../DomainModel/ViewPaper.png Graphic file (type png)
+
+<use ../DomainModel/ViewPaper.png>
+Package pdftex.def Info: ../DomainModel/ViewPaper.png used on input line 242.
+(pdftex.def)             Requested size: 416.9055pt x 106.03795pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 242--242
+ [] 
+ []
+
+<../DomainModel/ModifyPaper.png, id=252, 930.47626pt x 244.915pt>
+File: ../DomainModel/ModifyPaper.png Graphic file (type png)
+
+<use ../DomainModel/ModifyPaper.png>
+Package pdftex.def Info: ../DomainModel/ModifyPaper.png used on input line 251.
+
+(pdftex.def)             Requested size: 416.9055pt x 109.7361pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 251--251
+ [] 
+ []
+
+<../DomainModel/Publishpaper.png, id=253, 337.26pt x 222.8325pt>
+File: ../DomainModel/Publishpaper.png Graphic file (type png)
+
+<use ../DomainModel/Publishpaper.png>
+Package pdftex.def Info: ../DomainModel/Publishpaper.png used on input line 260
+.
+(pdftex.def)             Requested size: 416.9055pt x 275.4628pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 260--260
+ [] 
+ []
+
+[10 <../DomainModel/ViewPaper.png (PNG copy)> <../DomainModel/ModifyPaper.png (
+PNG copy)>]
+<../DomainModel/TerminatePaper.png, id=258, 316.18124pt x 215.80624pt>
+File: ../DomainModel/TerminatePaper.png Graphic file (type png)
+
+<use ../DomainModel/TerminatePaper.png>
+Package pdftex.def Info: ../DomainModel/TerminatePaper.png used on input line 2
+69.
+(pdftex.def)             Requested size: 416.9055pt x 284.57533pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 269--269
+ [] 
+ []
+
+[11 <../DomainModel/Publishpaper.png (PNG copy)>]
+<../DomainModel/EditAccount.png, id=263, 530.98375pt x 334.24875pt>
+File: ../DomainModel/EditAccount.png Graphic file (type png)
+
+<use ../DomainModel/EditAccount.png>
+Package pdftex.def Info: ../DomainModel/EditAccount.png used on input line 278.
+
+(pdftex.def)             Requested size: 416.9055pt x 262.44194pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 278--278
+ [] 
+ []
+
+[12 <../DomainModel/TerminatePaper.png (PNG copy)>]
+<../DomainModel/RemoveAccount.png, id=269, 545.03625pt x 341.275pt>
+File: ../DomainModel/RemoveAccount.png Graphic file (type png)
+
+<use ../DomainModel/RemoveAccount.png>
+Package pdftex.def Info: ../DomainModel/RemoveAccount.png used on input line 28
+7.
+(pdftex.def)             Requested size: 416.9055pt x 261.04327pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 287--287
+ [] 
+ []
+
+[13 <../DomainModel/EditAccount.png (PNG copy)> <../DomainModel/RemoveAccount.p
+ng (PNG copy)>]
+<../DomainModel/Viewaccount.png, id=274, 545.03625pt x 341.275pt>
+File: ../DomainModel/Viewaccount.png Graphic file (type png)
+
+<use ../DomainModel/Viewaccount.png>
+Package pdftex.def Info: ../DomainModel/Viewaccount.png used on input line 296.
+
+(pdftex.def)             Requested size: 416.9055pt x 261.04327pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 296--296
+ [] 
+ []
+
+<../DomainModel/SearchUser.png, id=275, 538.01pt x 334.24875pt>
+File: ../DomainModel/SearchUser.png Graphic file (type png)
+
+<use ../DomainModel/SearchUser.png>
+Package pdftex.def Info: ../DomainModel/SearchUser.png used on input line 305.
+(pdftex.def)             Requested size: 416.9055pt x 259.00949pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 305--305
+ [] 
+ []
+
+[14 <../DomainModel/Viewaccount.png (PNG copy)>]
+Overfull \hbox (84.9771pt too wide) in paragraph at lines 310--311
+[]\OT1/cmr/bx/n/10.95 Pre-Condition: \OT1/cmr/m/n/10.95 The user as-sign-ing th
+e co-author must be a primary-author/admin/Superuser
+ []
+
+<../DomainModel/AssignCoAuthor.png, id=280, 337.26pt x 222.8325pt>
+File: ../DomainModel/AssignCoAuthor.png Graphic file (type png)
+
+<use ../DomainModel/AssignCoAuthor.png>
+Package pdftex.def Info: ../DomainModel/AssignCoAuthor.png used on input line 3
+14.
+(pdftex.def)             Requested size: 416.9055pt x 275.4628pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 314--314
+ [] 
+ []
+
+[15 <../DomainModel/SearchUser.png (PNG copy)>]
+<../DomainModel/Viewrecentactivites.png, id=285, 628.3475pt x 171.64125pt>
+File: ../DomainModel/Viewrecentactivites.png Graphic file (type png)
+
+<use ../DomainModel/Viewrecentactivites.png>
+Package pdftex.def Info: ../DomainModel/Viewrecentactivites.png used on input l
+ine 323.
+(pdftex.def)             Requested size: 416.9055pt x 113.88332pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 323--323
+ [] 
+ []
+
+<../DomainModel/SystemEvents.png, id=286, 628.3475pt x 171.64125pt>
+File: ../DomainModel/SystemEvents.png Graphic file (type png)
+
+<use ../DomainModel/SystemEvents.png>
+Package pdftex.def Info: ../DomainModel/SystemEvents.png used on input line 332
+.
+(pdftex.def)             Requested size: 416.9055pt x 113.88332pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 332--332
+ [] 
+ []
+
+[16 <../DomainModel/AssignCoAuthor.png (PNG copy)> <../DomainModel/Viewrecentac
+tivites.png (PNG copy)>]
+<../DomainModel/SetNotificaiton.png, id=291, 780.9175pt x 234.8775pt>
+File: ../DomainModel/SetNotificaiton.png Graphic file (type png)
+
+<use ../DomainModel/SetNotificaiton.png>
+Package pdftex.def Info: ../DomainModel/SetNotificaiton.png used on input line 
+341.
+(pdftex.def)             Requested size: 416.9055pt x 125.3912pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 341--341
+ [] 
+ []
+
+<../DomainModel/RevivePaper.png, id=292, 545.03625pt x 341.275pt>
+File: ../DomainModel/RevivePaper.png Graphic file (type png)
+
+<use ../DomainModel/RevivePaper.png>
+Package pdftex.def Info: ../DomainModel/RevivePaper.png used on input line 350.
+
+(pdftex.def)             Requested size: 416.9055pt x 261.04327pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 350--350
+ [] 
+ []
+
+[17 <../DomainModel/SystemEvents.png (PNG copy)> <../DomainModel/SetNotificaito
+n.png (PNG copy)>]
+<../DomainModel/Units.png, id=297, 818.05624pt x 334.24875pt>
+File: ../DomainModel/Units.png Graphic file (type png)
+
+<use ../DomainModel/Units.png>
+Package pdftex.def Info: ../DomainModel/Units.png used on input line 359.
+(pdftex.def)             Requested size: 416.9055pt x 170.34729pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 359--359
+ [] 
+ []
+
+[18 <../DomainModel/RevivePaper.png (PNG copy)> <../DomainModel/Units.png (PNG 
+copy)>] <../DomainModel/Representunits.png, id=303, 538.01pt x 334.24875pt>
+File: ../DomainModel/Representunits.png Graphic file (type png)
+
+<use ../DomainModel/Representunits.png>
+Package pdftex.def Info: ../DomainModel/Representunits.png used on input line 3
+68.
+(pdftex.def)             Requested size: 416.9055pt x 259.00949pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 368--368
+ [] 
+ []
+
+<../Images/DatabaseConnectionUC.jpg, id=304, 877.2775pt x 550.055pt>
 File: ../Images/DatabaseConnectionUC.jpg Graphic file (type jpg)
 
 <use ../Images/DatabaseConnectionUC.jpg>
 Package pdftex.def Info: ../Images/DatabaseConnectionUC.jpg used on input line 
-286.
+377.
 (pdftex.def)             Requested size: 416.9055pt x 261.40472pt.
- [9]
-<../Images/UserGateawayUC.jpg, id=252, 903.375pt x 598.235pt>
+ [19 <../DomainModel/Representunits.png (PNG copy)>] <../Images/UserGateawayUC.
+jpg, id=309, 903.375pt x 598.235pt>
 File: ../Images/UserGateawayUC.jpg Graphic file (type jpg)
 
 <use ../Images/UserGateawayUC.jpg>
-Package pdftex.def Info: ../Images/UserGateawayUC.jpg used on input line 290.
+Package pdftex.def Info: ../Images/UserGateawayUC.jpg used on input line 381.
 (pdftex.def)             Requested size: 416.9055pt x 276.08601pt.
- [10 <../Images/DatabaseConnectionUC.jpg>]
-<../Images/ResearchpapermanagementUC.jpg, id=257, 893.3375pt x 566.115pt>
+ [20 <../Images/DatabaseConnectionUC.jpg>]
+<../Images/ResearchpapermanagementUC.jpg, id=314, 893.3375pt x 566.115pt>
 File: ../Images/ResearchpapermanagementUC.jpg Graphic file (type jpg)
 
 <use ../Images/ResearchpapermanagementUC.jpg>
 Package pdftex.def Info: ../Images/ResearchpapermanagementUC.jpg used on input 
-line 294.
+line 385.
 (pdftex.def)             Requested size: 416.9055pt x 264.19958pt.
 
-<../Images/UserAccountManagementUC.jpg, id=258, 893.3375pt x 656.4525pt>
+<../Images/UserAccountManagementUC.jpg, id=315, 893.3375pt x 656.4525pt>
 File: ../Images/UserAccountManagementUC.jpg Graphic file (type jpg)
 
 <use ../Images/UserAccountManagementUC.jpg>
 Package pdftex.def Info: ../Images/UserAccountManagementUC.jpg used on input li
-ne 298.
+ne 389.
 (pdftex.def)             Requested size: 416.9055pt x 306.3591pt.
- [11 <../Images/UserGateawayUC.jpg> <../Images/ResearchpapermanagementUC.jpg>]
-<../Images/LogServicesUC.jpg, id=263, 877.2775pt x 550.055pt>
+ [21 <../Images/UserGateawayUC.jpg> <../Images/ResearchpapermanagementUC.jpg>]
+<../Images/LogServicesUC.jpg, id=320, 877.2775pt x 550.055pt>
 File: ../Images/LogServicesUC.jpg Graphic file (type jpg)
 
 <use ../Images/LogServicesUC.jpg>
-Package pdftex.def Info: ../Images/LogServicesUC.jpg used on input line 302.
+Package pdftex.def Info: ../Images/LogServicesUC.jpg used on input line 393.
 (pdftex.def)             Requested size: 416.9055pt x 261.40472pt.
 
-<../Images/NotificationServicesUC.jpg, id=264, 819.06pt x 502.87875pt>
+<../Images/NotificationServicesUC.jpg, id=321, 819.06pt x 502.87875pt>
 File: ../Images/NotificationServicesUC.jpg Graphic file (type jpg)
 
 <use ../Images/NotificationServicesUC.jpg>
 Package pdftex.def Info: ../Images/NotificationServicesUC.jpg used on input lin
-e 306.
+e 397.
 (pdftex.def)             Requested size: 416.9055pt x 255.97368pt.
- [12 <../Images/UserAccountManagementUC.jpg> <../Images/LogServicesUC.jpg>] [13
+ [22 <../Images/UserAccountManagementUC.jpg> <../Images/LogServicesUC.jpg>] [23
  <../Images/NotificationServicesUC.jpg>]
-<../Images/Server_Connection_Sequence_Diagram.png, id=274, 618.31pt x 424.58624
+<../Images/Server_Connection_Sequence_Diagram.png, id=330, 618.31pt x 424.58624
 pt>
 File: ../Images/Server_Connection_Sequence_Diagram.png Graphic file (type png)
  <use ../Images/Server_Connection_Sequence_Diagram.png>
 Package pdftex.def Info: ../Images/Server_Connection_Sequence_Diagram.png used 
-on input line 316.
+on input line 407.
 (pdftex.def)             Requested size: 416.9055pt x 286.29181pt.
- [14 <../Images/Server_Connection_Sequence_Diagram.png>]
-<../Images/Database_Connection_Activity_Diagram.png, id=279, 469.755pt x 440.64
+ [24 <../Images/Server_Connection_Sequence_Diagram.png>]
+<../Images/Database_Connection_Activity_Diagram.png, id=336, 469.755pt x 440.64
 626pt>
 File: ../Images/Database_Connection_Activity_Diagram.png Graphic file (type png
 )
  <use ../Images/Database_Connection_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Database_Connection_Activity_Diagram.png use
-d on input line 322.
+d on input line 413.
 (pdftex.def)             Requested size: 416.9055pt x 391.07124pt.
- [15 <../Images/Database_Connection_Activity_Diagram.png>]
-<../Images/Login_Activity_Diagram.png, id=285, 549.05125pt x 376.40625pt>
+ [25 <../Images/Database_Connection_Activity_Diagram.png>]
+<../Images/Login_Activity_Diagram.png, id=341, 549.05125pt x 376.40625pt>
 File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Login_Activity_Diagram.png used on input lin
-e 328.
+e 419.
 (pdftex.def)             Requested size: 416.9055pt x 285.819pt.
- [16 <../Images/Login_Activity_Diagram.png>]
-<../Images/Logout_Activity_Diagram.png, id=290, 462.72874pt x 421.575pt>
+ [26 <../Images/Login_Activity_Diagram.png>]
+<../Images/Logout_Activity_Diagram.png, id=346, 462.72874pt x 421.575pt>
 File: ../Images/Logout_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Logout_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Logout_Activity_Diagram.png used on input li
-ne 334.
+ne 425.
 (pdftex.def)             Requested size: 416.9055pt x 379.8321pt.
- [17 <../Images/Logout_Activity_Diagram.png>]
-<../Images/addNewUser_Activity_Diagram.png, id=295, 795.97375pt x 572.1375pt>
+ [27 <../Images/Logout_Activity_Diagram.png>]
+<../Images/addNewUser_Activity_Diagram.png, id=351, 795.97375pt x 572.1375pt>
 File: ../Images/addNewUser_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/addNewUser_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/addNewUser_Activity_Diagram.png used on inpu
-t line 340.
+t line 431.
 (pdftex.def)             Requested size: 416.9055pt x 299.66081pt.
- [18 <../Images/addNewUser_Activity_Diagram.png>]
-<../Images/newAuthor_Activity_Diagram.png, id=301, 513.92pt x 419.5675pt>
+ [28 <../Images/addNewUser_Activity_Diagram.png>]
+<../Images/newAuthor_Activity_Diagram.png, id=356, 513.92pt x 419.5675pt>
 File: ../Images/newAuthor_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/newAuthor_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/newAuthor_Activity_Diagram.png used on input
- line 346.
+ line 437.
 (pdftex.def)             Requested size: 416.9055pt x 340.36638pt.
 
-<../Images/DomainModel.png, id=302, 1829.83624pt x 1288.815pt>
-File: ../Images/DomainModel.png Graphic file (type png)
+<../DomainModel/Model.png, id=357, 1454.43375pt x 1117.17375pt>
+File: ../DomainModel/Model.png Graphic file (type png)
 
-<use ../Images/DomainModel.png>
-Package pdftex.def Info: ../Images/DomainModel.png used on input line 351.
-(pdftex.def)             Requested size: 416.9055pt x 293.6287pt.
- [19 <../Images/newAuthor_Activity_Diagram.png>] [20 <../Images/DomainModel.png
- (PNG copy)>]
-(./Assignment1_COS301_TeamBravo.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
- [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
- (./Assignment1_COS301_TeamBravo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
+<use ../DomainModel/Model.png>
+Package pdftex.def Info: ../DomainModel/Model.png used on input line 442.
+(pdftex.def)             Requested size: 416.9055pt x 320.22182pt.
+ [29 <../Images/newAuthor_Activity_Diagram.png>]
+[30 <../DomainModel/Model.png (PNG copy)>] (Assignment1_COS301_TeamBravo.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+
+[31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+ (Assignment1_COS301_TeamBravo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 71F26268C9C5D7A457B62BB39D88E2F1;2808.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
+(rerunfilecheck)             Checksum: 44277B17D22D3AB743CC255FD8C3E2E3;2847.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 5387 strings out of 493089
- 82402 string characters out of 6134843
- 163803 words of memory out of 5000000
- 8758 multiletter control sequences out of 15000+600000
- 9753 words of font info for 34 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 29i,6n,28p,347b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (22 pages, 1230158 bytes).
+ 5370 strings out of 493634
+ 84386 string characters out of 3131973
+ 161042 words of memory out of 3000000
+ 8623 multiletter control sequences out of 15000+200000
+ 9753 words of font info for 34 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 29i,6n,28p,349b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Dad The Gamer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/Dad The Gamer/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Dad The Gamer/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Dad
+ The Gamer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Users/Dad The Gamer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Users/Dad The Gamer/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Dad The Gamer/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Assignment1_COS301_TeamBravo.pdf (32 pages, 1731906 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 63 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
