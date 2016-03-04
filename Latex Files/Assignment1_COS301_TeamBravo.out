@@ -28,8 +28,8 @@
 \BOOKMARK [2][-]{subsection.5.4}{Process specifications}{section.5}% 28
 \BOOKMARK [3][-]{subsubsection.5.4.1}{Server Connection}{subsection.5.4}% 29
 \BOOKMARK [3][-]{subsubsection.5.4.2}{Database Connection}{subsection.5.4}% 30
-\BOOKMARK [3][-]{subsubsection.5.4.3}{Login}{subsection.5.4}% 31
-\BOOKMARK [3][-]{subsubsection.5.4.4}{Logout}{subsection.5.4}% 32
+\BOOKMARK [3][-]{subsubsection.5.4.3}{Register}{subsection.5.4}% 31
+\BOOKMARK [3][-]{subsubsection.5.4.4}{Login}{subsection.5.4}% 32
 \BOOKMARK [3][-]{subsubsection.5.4.5}{add new User}{subsection.5.4}% 33
 \BOOKMARK [3][-]{subsubsection.5.4.6}{New Author}{subsection.5.4}% 34
 \BOOKMARK [2][-]{subsection.5.5}{Domain Model}{section.5}% 35

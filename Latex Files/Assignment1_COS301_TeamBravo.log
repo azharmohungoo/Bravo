@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  4 MAR 2016 16:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  4 MAR 2016 16:58
 entering extended mode
 **Assignment1_COS301_TeamBravo.tex
 
@@ -588,30 +588,30 @@ line 411.
 (pdftex.def)             Requested size: 416.9055pt x 423.62566pt.
  [27 <C:/Users/Diana/Documents/GitHub/Bravo/Images/database_Activity_Diagram.pn
 g>]
-<../Images/Login_Activity_Diagram.png, id=342, 466.74374pt x 524.96124pt>
+<../Images/registerUser_Activity_Diagram.png, id=342, 524.96124pt x 446.66875pt
+>
+File: ../Images/registerUser_Activity_Diagram.png Graphic file (type png)
+ <use ../Images/registerUser_Activity_Diagram.png>
+Package pdftex.def Info: ../Images/registerUser_Activity_Diagram.png used on in
+put line 417.
+(pdftex.def)             Requested size: 416.9055pt x 354.73872pt.
+ [28 <C:/Users/Diana/Documents/GitHub/Bravo/Images/registerUser_Activity_Diagra
+m.png>]
+<../Images/Login_Activity_Diagram.png, id=347, 466.74374pt x 524.96124pt>
 File: ../Images/Login_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/Login_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/Login_Activity_Diagram.png used on input lin
-e 417.
+e 423.
 (pdftex.def)             Requested size: 416.9055pt x 468.92824pt.
- [28 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Login_Activity_Diagram.png>]
+ [29 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Login_Activity_Diagram.png>]
 
-<../Images/Logout_Activity_Diagram.png, id=347, 462.72874pt x 421.575pt>
-File: ../Images/Logout_Activity_Diagram.png Graphic file (type png)
-
-<use ../Images/Logout_Activity_Diagram.png>
-Package pdftex.def Info: ../Images/Logout_Activity_Diagram.png used on input li
-ne 423.
-(pdftex.def)             Requested size: 416.9055pt x 379.8321pt.
- [29 <C:/Users/Diana/Documents/GitHub/Bravo/Images/Logout_Activity_Diagram.png>
-]
 <../Images/addNewUser_Activity_Diagram.png, id=352, 730.73pt x 587.19376pt>
 File: ../Images/addNewUser_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/addNewUser_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/addNewUser_Activity_Diagram.png used on inpu
-t line 429.
+t line 430.
 (pdftex.def)             Requested size: 416.9055pt x 335.01752pt.
  [30 <C:/Users/Diana/Documents/GitHub/Bravo/Images/addNewUser_Activity_Diagram.
 png>]
@@ -620,38 +620,44 @@ File: ../Images/newAuthor_Activity_Diagram.png Graphic file (type png)
 
 <use ../Images/newAuthor_Activity_Diagram.png>
 Package pdftex.def Info: ../Images/newAuthor_Activity_Diagram.png used on input
- line 435.
+ line 436.
 (pdftex.def)             Requested size: 416.9055pt x 340.36638pt.
 
 <../DomainModel/Model.png, id=359, 1454.43375pt x 1117.17375pt>
 File: ../DomainModel/Model.png Graphic file (type png)
 
 <use ../DomainModel/Model.png>
-Package pdftex.def Info: ../DomainModel/Model.png used on input line 440.
+Package pdftex.def Info: ../DomainModel/Model.png used on input line 441.
 (pdftex.def)             Requested size: 416.9055pt x 320.22182pt.
  [31 <C:/Users/Diana/Documents/GitHub/Bravo/Images/newAuthor_Activity_Diagram.p
 ng>] [32 <C:/Users/Diana/Documents/GitHub/Bravo/DomainModel/Model.png (PNG copy
 )>]
 No file Assignment1_COS301_TeamBravo.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
 
 ("C:\Users\Diana\Documents\GitHub\Bravo\Latex Files\Assignment1_COS301_TeamBrav
 o.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
-Package rerunfilecheck Info: File `Assignment1_COS301_TeamBravo.out' has not ch
-anged.
-(rerunfilecheck)             Checksum: D8462C1F3E84FAFA3858B10A469E4E25;2651.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
 
+
+Package rerunfilecheck Warning: File `Assignment1_COS301_TeamBravo.out' has cha
+nged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Assignment1_COS301_TeamBravo.out':
+(rerunfilecheck)             Before: D8462C1F3E84FAFA3858B10A469E4E25;2651
+(rerunfilecheck)             After:  07593EE83EE53D9A69E62F88D8443970;2653.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
  ) 
 Here is how much of TeX's memory you used:
  5365 strings out of 493921
- 83241 string characters out of 3147282
+ 83271 string characters out of 3147282
  156534 words of memory out of 3000000
  8532 multiletter control sequences out of 15000+200000
  9753 words of font info for 34 fonts, out of 3000000 for 9000
@@ -664,7 +670,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb>
-Output written on Assignment1_COS301_TeamBravo.pdf (33 pages, 1682462 bytes).
+Output written on Assignment1_COS301_TeamBravo.pdf (33 pages, 1684245 bytes).
 PDF statistics:
  408 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
