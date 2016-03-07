@@ -28,10 +28,6 @@
 	
 	\tableofcontents
 	
-	\textsc{}\\[1cm]
-	
-	\newpage
-	
 	\section{Introduction}
 	
 	This document aims to specify the functional and non-functional requirements of a document archiving system, as specified by Ms Vreda Pieterse of the Computer Science Department.
@@ -62,14 +58,72 @@
 	\section{Architecture requirements}
 	
 	\subsection{Architecture requirements}
+		\subsection{Access channel requirements}
+			The different access channels for the system will be as follows:
+		\subsubsection{Web Application}
+			The system can be used via a web application that uses RESTful web services and bootstrap technology. The system will be fully supported on the following web browsers:
+				\begin{itemize}
+					\item Chrome 7.0.517 and up
+					\item Firefox 3.6 and up
+					\item Safari 4 and up
+					\item Edge
+				\end{itemize}
+			Bootstrap will be used so that the web application will also be accessible by mobile web browsers that support HTML5 and JavaScript technology.
+		\subsubsection{Mobile Application}
+			The system will also be accessible via a mobile application and will be operational on the following mobile operating systems:
+				\begin{itemize}
+					\item Android 4.0 (Ice Cream Sandwich) and up.
+				\end{itemize}
 	
 	\subsubsection{Architectural scope}
+		\begin{itemize}
+			\item stuffs
+		\end{itemize}
 	
-	\subsubsection{Quality requirements}
+	\subsection{Quality requirements}
+		\begin{itemize}
+			\item Security - The system shall identify all of its client applications before allowing them access to those enities. Possible measurement methods: Success rate in 								authentication, percentage of successful attacks, encryption level and probability/time/resources needed to attack the system.
+			\item Usability - The degree of ease of use and training needed for end users. Possible measurement methods: Time it took a user to find a report (search functionality), 							percentage of deadlines met (notification functionality) and time it took a user to perform certain tasks.
+			\item Auditability - The degree to which transactions can be traced. Possible measurement methods: The number and precision of logs generated in a period of time 								(metadata accessed/deleted/added).
+			\item Portability - Measure ability of the system to run under different computing environments. Possible measurement methods: Number of targeted software 									environments (ie different browsers and operating systems) and proportion of platform specific functionality.
+			\item Maintainability - Measures ability to make changes quickly and cost effectively. Possible measurement methods: Degree of complexity to make changes to the format 							of the metadata and mean time to add or change certain functionalities (ie new report types and new types of users).
+			\item Availability - Percentage of time that the system is up and running correctly. Possible measurement methods: Length of time between failures and length of time 								needed to resume operation after a failure.
+			\item Performance - Possible measurement methods: How well the system perform under high workload and number of events processed/denied in some interval of time.
+		\end{itemize}
 	
-	\subsubsection{Integration and access channel requirements}
-	
-	\subsubsection{Architectural constraints}
+	\subsection{Integration and access channel requirements}
+		\subsubsection{Integration channels}
+			\begin{itemize}
+				\item System will be integrated on two platforms: a website and an android application.
+			\end{itemize}
+		\subsubsection{Protocols}
+			\begin{itemize}
+				\item Protocols needed for the website: HTTPS, Data Query Protocol
+				\item Protocols needed for the application: Session Initiation Protocol (SIP)
+			\end{itemize}
+		\subsubsection{Integration quality requirements}
+			\begin{itemize}
+				\item Reliability - The service must not crash, it must run effectively and efficiently allowing users to make use of the service at all times.
+				\item Auditability - Have logs record all activity that occurs thus all actions and occurrences can be traced.
+				\item Security - Giving the users reassurance that the system will protect their details and content. Allow secure and safe communication between user and the 									system.
+				\item Maintainability - Provide easy, effective and efficient maintenance to the system allowing minimal or no downtime of the system.
+				\item Usability - Allow users to use the system with ease and minimal need for tutorials. Ensure that the system is self-explanatory, efficient and effective.
+				\item Portability - To provide compatibility with as many systems as possible without integration failure or function failure.
+				\item Availability - Minimise downtime of the system. Quick recoveries from crashes, preventive measures to minimise chances of system crash.
+				\item Performance - The rate of work done when the system has either a high or low workload and minimise amount of denied events.
+				\item Seamless transitions between platforms - Implementation between the integrated platforms must not vary greatly to avoid confusion and allow ease of use.
+			\end{itemize}
+
+	\subsection{Architecture constraints}
+		\begin{itemize}
+			\item The platform must exist in 2 mediums, namely web and android application.
+			\item It is an internal network to be used by the Computer Science department, so it need not to source any information from the web.
+			\item Any form of database can be used, but the team has decided that MySQL would be the best option from the current skillset.
+			\item PHP and JavaScript will be used for the web and Android Studio for the android application.
+			\item The system should cater for and including 100 users as a maximum.
+			\item There should be a log that records all activity on the system
+		\end{itemize}
+
 	
 	\subsection{Architectural patterns or styles}
 	
