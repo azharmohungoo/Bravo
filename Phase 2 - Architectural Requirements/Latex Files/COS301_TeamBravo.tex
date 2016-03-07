@@ -1,0 +1,420 @@
+\documentclass[11pt]{article}
+\addtolength{\oddsidemargin}{-1.cm}
+\addtolength{\textwidth}{2cm}
+\addtolength{\topmargin}{-2cm}
+\addtolength{\textheight}{3.5cm}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\usepackage{cite}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,
+	urlcolor=cyan,
+}
+
+% define the title
+\author{Team Bravo}
+\title{Software Requirements Specification and Technology Neutral Process Design and Software Architecture Documentation}
+\begin{document}
+	\setlength{\parskip}{6pt}
+	
+	% generates the title
+	\input{coverPage.tex}
+	
+	\renewcommand{\thesection}{\arabic{section}}
+	\newpage
+	
+	\tableofcontents
+	
+	\textsc{}\\[1cm]
+	
+	\newpage
+	
+	\section{Introduction}
+	
+	This document aims to specify the functional and non-functional requirements of a document archiving system, as specified by Ms Vreda Pieterse of the Computer Science Department.
+	
+	It will serve as a means of communication between the client and developers as well as providing an elaboration and a clear discription of it's implementation specifications.
+	
+	\section{Vision}
+	
+	We intend to create a system that will allow authors and their co-authors to work on their research papers in an environment that reassures collaborative work, which in turn diminishes the time spent on papers with multiple authors. The following are what we plan to achieve:
+	
+	\begin{itemize}
+		\item Keep track of research papers.
+		\item View meta-data of research papers.
+		\item Allow multiple authors to collaborate on the same research paper.
+		\item Different levels of authority, i.e. Admin, (Co)Author, User.
+		\item View and edit the details, of a text based profile, of different researchers.
+		\item Implemention as a website and an android application.
+	\end{itemize}
+	
+	\section{Background}
+	
+	We live in a world where time is valuable. We would like to do as much as we possibly can in the shortest amount of time. And if that's not possible, we work in teams to ensure that we achieve that goal.
+	
+	Reseacher papers tend to be fairly lengthy, and if completed by only one author, it could be quite a tedious process. Hence we propose a system which would make the storage and collaboration of research articles and papers effortless by producing an archive system.
+
+	\newpage
+	
+	\section{Architecture requirements}
+	
+	\subsection{Architecture requirements}
+	
+	\subsubsection{Architectural scope}
+	
+	\subsubsection{Quality requirements}
+	
+	\subsubsection{Integration and access channel requirements}
+	
+	\subsubsection{Architectural constraints}
+	
+	\subsection{Architectural patterns or styles}
+	
+	\subsection{Architectural tactics or strategies}
+	
+	\subsection{Use of reference architectures and frameworks}
+	
+	\subsection{Access and integration channels}
+	
+	\newpage
+	
+	\section{Functional requirements and application design}
+	
+	\subsection{Use case prioritization}
+	This section specifies the level of importance of different use cases, prioritized in terms of the following 3 catogories: Critical, Important and Nice-To-Have. Each of which has a lesser importance than the previous one.
+	
+	\subsubsection{Critical:}
+	\begin{itemize}
+		\item User gateaway
+		\begin{itemize}
+			\item Register user
+			\item Login user
+		\end{itemize}
+		\item Research paper management
+		\begin{itemize}
+			\item View paper
+			\item Publish paper
+			\item Terminate paper
+			\item Assign research paper's conference venue
+			\item View research paper's venue
+		\end{itemize}
+		\item User account management
+		\begin{itemize}
+			\item View user account
+			\item Remove account
+			\item Create new account
+			\item Search user
+			\item Modify account
+			\item Assign co-author
+		\end{itemize}
+		\item Log services
+		\begin{itemize}
+			\item View recent activities
+			\item System events
+			\item Determine date and time
+			\item Identify user
+		\end{itemize}
+		\item Other
+		\begin{itemize}
+			\item System should only allow one primary author for each research paper. The rest should be co-authors
+			\item Superuser, one to be above all other users to have complete control and access to the entire system
+			\item Only metedata of the document will be posted, no documents will be posted
+			\item Research documents are archived rather than deleted
+		\end{itemize}
+		
+	\end{itemize}
+	
+	\subsubsection{Important:}
+	\begin{itemize}
+		\item Notification Services
+		\begin{itemize}
+			\item Create notification
+		\end{itemize}
+		\item Archival Services
+		\begin{itemize}
+			\item Terminate paper
+			\item Revive paper
+		\end{itemize}
+	\end{itemize}
+	\begin{itemize}
+		\item Units accumulated from work on papers is reflected on the user's profile
+	\end{itemize}
+	
+	\subsubsection{Nice-To-Have:}
+	\begin{itemize}
+		\item Users can search for other users attending the same conference
+		\item Data representation via bar charts of the units accumulated by researchers throughout the past years
+	\end{itemize}
+	
+	\newpage
+	
+	\subsection{Use case/Services contracts}
+		\subsubsection{Login user}
+		\begin{itemize}
+			\item \textbf{Description: }The ability for a user to login to the system
+			\item \textbf{Pre-Condition: }A user name and password must be provided by the user attempting to login. The username must exist in the database and the password needs to be the same as the one found within the database. 
+			\item \textbf{Post-Condition: }The user will be notified the login was successful and now has the privledges associated with the account.
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Loginuser.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		 \subsubsection{Register User}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to create a new account within the system
+			\item \textbf{Pre-Condition: }The user must provide a username, password and email address that will be associated with the created account. The username must also not already exist within the database. 
+			\item \textbf{Post-Condition: }The account needs to be created and exist within the database
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/RegisterUser.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{View paper}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to view the meta-data related to a research paper
+			\item \textbf{Pre-Condition: }The user attempting to view the paper must be an author of the paper or have sufficent privledge.
+			\item \textbf{Post-Condition: }The data of the paper in question must be displayed to the user.
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/ViewPaper.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Modify paper}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to edit the meta-data related to a research paper.
+			\item \textbf{Pre-Condition: }The user attempting to edit the paper must be an author of the paper or have sufficent privledge.
+			\item \textbf{Post-Condition: }The paper's meta-data needs to be altered in the desired way.
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/ModifyPaper.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Publish paper}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to set a paper within the system as published and discontinue work on it.
+			\item \textbf{Pre-Condition: }A user with sufficient priveledge should be making this action
+			\item \textbf{Post-Condition: }The paper is set as published and the group is dissolved.
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Publishpaper.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Terminate paper}
+		\begin{itemize}
+			\item \textbf{Description: }The paper is discontinued by the current research group
+			\item \textbf{Pre-Condition: }The request has to be made by the primary-author, the admin, the Superuser or the Head of Department
+			\item \textbf{Post-Condition: }The paper is listed as discontinued
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/TerminatePaper.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Edit Account}
+		\begin{itemize}
+			\item \textbf{Description: }The ability for users to edit their profiles
+			\item \textbf{Pre-Condition: }The user attempting to edit the profile must either have sufficient priveledge or must be the owner of the account
+			\item \textbf{Post-Condition: }The profile has been edited in the desired way
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/EditAccount.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Remove account}
+		\begin{itemize}
+			\item \textbf{Description: }Delete a user account from the system
+			\item \textbf{Pre-Condition: }The user attempting to delete the profile must either have sufficient priveledge or must be the owner of the account
+			\item \textbf{Post-Condition: }The profile no longer exists within the system
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/RemoveAccount.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{View user account}
+		\begin{itemize}
+			\item \textbf{Description: }The ability for a user to view an account
+			\item \textbf{Pre-Condition: }The user must be logged into their account or the user attempting to view the account must be an admin, super admin, or head of department.
+			\item \textbf{Post-Condition: }The user's account needs to be displayed for the requesting user
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Viewaccount.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Search user}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to search for users working on paper's for the same conference as well as admins, Superusers and the Head of Department to search for users based on certain criteria
+			\item \textbf{Pre-Condition: }The criteria for the desired group of users must be specified
+			\item \textbf{Post-Condition: }The user/s are presented to the user requesting
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/SearchUser.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Assign co-author}
+		\begin{itemize}
+			\item \textbf{Description: }A co-author is assigned to a research group
+			\item \textbf{Pre-Condition: }The user assigning the co-author must be a primary-author/admin/Superuser or Head of Department
+			\item \textbf{Post-Condition: }The co-author is linked to the research group
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/AssignCoAuthor.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{View recent activities}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to view recent actions taken by the user on the system
+			\item \textbf{Pre-Condition: }User requesting must be of sufficient priveledge
+			\item \textbf{Post-Condition: }The activities are presented to the user requesting them
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Viewrecentactivites.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{System events}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to view logs of events that have taken place within the system
+			\item \textbf{Pre-Condition: }User requesting must be an Admin, Superuser or Head of Department
+			\item \textbf{Post-Condition: }The log of system events is presented to the user
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/SystemEvents.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Set notification}
+		\begin{itemize}
+			\item \textbf{Description: }The ability to set who receives a notification as well as when the notification should be issued
+			\item \textbf{Pre-Condition: }The user setting the notification must be a Primary Author, Admin, Superuser or Head of Department
+			\item \textbf{Post-Condition: }The notification is set and will email the specified user at the specified time/s.
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/SetNotificaiton.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Revive paper}
+		\begin{itemize}
+			\item \textbf{Description: }Assign a terminated paper to a new research group
+			\item \textbf{Pre-Condition: }The terminated paper must exist within the system
+			\item \textbf{Post-Condition: }A new research group is created with the requesting user as the primary-author
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/RevivePaper.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Units accumulated from work on papers is reflected on ther user's profile}
+		\begin{itemize}
+			\item \textbf{Description: }Units accumulated from work on papers is reflected on ther user's profile
+			\item \textbf{Pre-Condition: }A paper worth a certain number of units must be published and the user needs to be an author of the paper.
+			\item \textbf{Post-Condition: }The units are added to the user's profile and displayed when the profile is viewed
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Units.png}\\[0.5cm]
+		\end{center}
+		\newpage
+		\subsubsection{Data representation of units accumulated}
+		\begin{itemize}
+			\item \textbf{Description: }A bar chart representation of the units a user has accumulated over time
+			\item \textbf{Pre-Condition: }The user must exist and the user requesting to view the representation must be the owner of the account, an Admin, Superuser or HoD.
+			\item \textbf{Post-Condition: }The bar chart is presented to the requesting user.
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Representunits.png}\\[0.5cm]
+		\end{center}
+	
+	\subsection{Required functionality}
+	
+	
+	\subsubsection{User Gateaway}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/UserGateway_UseCase.png}\\[0.5cm]
+	\end{center}
+	\newpage
+	\subsubsection{Research Paper Management}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/ResearchPaperManagement_UseCase.png}\\[0.5cm]
+	\end{center}
+	\newpage
+	\subsubsection{User Account Management Services}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/UserAccountManagementServices_UseCase.png}\\[0.5cm]
+	\end{center}
+	\newpage
+	\subsubsection{Log Services}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/LogServices_UseCase.png}\\[0.5cm]
+	\end{center}
+	\newpage
+	\subsubsection{Notification Services}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/NotificationServices_UseCase.png}\\[0.5cm]
+	\end{center}
+	\newpage
+	\subsubsection{Archival Services}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/UseCases/ArchivalServices_UseCase.png}\\[0.5cm]
+	\end{center}
+	\newpage
+	
+	\subsection{Process specifications}
+	
+	\subsubsection{Server Connection}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/SequenceDiagrams/Server_Connection_Sequence_Diagram.png}\\[0.5cm]
+	\end{center}
+	
+	\newpage
+	\subsubsection{Database Connection}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/database_Activity_Diagram.png}\\[0.5cm]
+	\end{center}
+	
+	\newpage
+	\subsubsection{Register User}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/registerUser_Activity_Diagram.png}\\[0.5cm]
+	\end{center}
+
+	\newpage
+	\subsubsection{Login}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/Login_Activity_Diagram.png}\\[0.5cm]
+	\end{center}
+	
+
+	\newpage
+	\subsubsection{Add new User}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/addNewUser_Activity_Diagram.png}\\[0.5cm]
+	\end{center}
+
+	\newpage
+	\subsubsection{View User Account}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/viewUserAccount_Activity_Diagram.png}\\[0.5cm]
+	\end{center}
+	
+	\newpage
+	\subsubsection{Remove Account}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/ActivityDiagrams/removeAccount_Activity_Diagram.png}\\[0.5cm]
+	\end{center}
+	
+	\newpage
+	\subsection{Domain Model}
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Diagrams/DomainModel/Model.png}\\[0.5cm]
+	\end{center}
+	
+	\newpage
+	\section{Open Issues}
+	\begin{itemize}
+		\item For further references and to access Team Braovo's github repository, please click on this \href{https://github.com/ish1993/Bravo}{link}.
+		\end{itemize}
+		
+	\newpage
+	\addcontentsline{toc}{section}{References}
+	\bibliographystyle{plainurl}
+	\bibliography{bibfile}{}
+	
+\end{document}

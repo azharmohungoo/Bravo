@@ -1,0 +1,9 @@
+4.4) Architecture Constraints
+
+•	The platform must exist in 2 mediums, namely web and android application.
+•	It is an internal network to be used by the Computer Science department, so it need not to source any information from the web.
+•	Any form of database can be used, but the team has decided that MySQL would be the best option from the current skillset.
+•	PHP and JavaScript will be used for the web and Android Studio for the android application.
+•	The system should cater for and including 100 users as a maximum.
+•	There should be a log that records all activity on the system
+
