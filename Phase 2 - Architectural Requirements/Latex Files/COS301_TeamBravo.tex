@@ -126,15 +126,26 @@
 
 	
 	\subsection{Architectural patterns or styles}
-	The MVC (Model View Control) architecture may be used in this system. The MVC architecture allows change to the system's state. The model is completed through a common interface(the control). The view is where developments are made to user interfaces and these changes are independent to the system providing extensibility at a low cost.
+	\subsubsection{MVC architecture:}
+	The MVC (Model View Control) architecture allows change to the system's state. The model is completed through a common interface(the control). The view is where developments are made to user interfaces and these changes are independent to the system providing extensibility at a low cost.
 	
-	Reasons for choosing MVC:	
+	Reasons to use MVC:	
 	\begin{itemize}
 		\item It encapsulates the interaction from the user and transforms those interactions, in the form of requests into business logic that interacts with the system mode to produce reponses. 
 		\item A multi-layered approach encapsulated by the MVC which enables the separation of business logic providing the need for sub-systems and internal and external APIs.  
 
 	\end{itemize}
+	The MVC architecture  will be based on SOA(Service Oriented Architecture) reference architecture. It is a loosely-coupled architecture where services exist independently from each other. They communicate with each other by means of protocols and standard-based interfaces such as SOAP and XML schema to define messages passed between objects. Services and functionality can easily be added to the existing system during progession. 
 
+	Reasons to use SOA:
+	\begin{itemize}
+		\item Reuse of objects
+		\item Flexible and agile
+		\item Simplicity of implementation
+		\item System is open to change and easy alteration
+
+	\end{itemize}
+	
 	\subsection{Architectural tactics or strategies}
 	
 	\subsection{Use of reference architectures and frameworks}
