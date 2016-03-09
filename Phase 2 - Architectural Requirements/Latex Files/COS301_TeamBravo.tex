@@ -151,6 +151,38 @@
 
 	\subsection{Architectural tactics or strategies}
 	
+		Availability is best defined by the proportion of time a system is functional and working as required. It can be affected by system errors, infrastructure problems, malicious attacks and system load. Here are some key issues:
+		\begin{itemize}
+			\item The server on which the database is kept can fail or become unresponsive, causing the entire system to fail. We will have to consider how to design failover support in the system. For example, we can use Network Load Balancing for Web servers to distribute the load and prevent requests being directed to a server that is down. Also, consider using a RAID mechanism to mitigate system failure in the event of a disk failure.
+			
+			\item Denial of service attacks, which prevent authorised users from accessing the system, can interrupt operations if the system cannot handle massive loads in a correct and timely manner, often due to the processing time required, or network configuration and congestion. To minimize interruption from such attacks, identify malicious behaviour, use application instrumentation to expose unintended behaviour, and implement comprehensive data validation. We will consider using the Circuit Breaker or Bulkhead patterns to increase system resiliency.
+		\end{itemize}
+		
+		Conceptual integrity is the consistency and coherence of the overall design. This means that we have to be consistent in our various modules’ designs as well as coding styles and variable names. A coherent system is one that is easy to maintain because you will know what is consistent in the modules. Things to look at:
+		\begin{itemize}
+			\item Lack of collaboration and communication between different groups involved in the application lifecycle. We should establish a development process integrated with tools to facilitate process workflow, communication, and collaboration.
+			
+			\item Lack of design and coding standards. A guideline for design and coding standards should be made, and we can incorporate code reviews into our development process to ensure guidelines are followed.
+		\end{itemize}
+		
+		Maintainability is the ability of the system to undergo changes with a degree of ease. These changes could impact components, services, features, and interfaces when adding or changing the application’s functionality in order to fix errors, or to meet new business requirements. We will tackle this challenge in the following way:
+		\begin{itemize}
+			\item This documentation will serve as the basic requirements of the system which will make it easier to upgrade and maintain the system at all times.
+			
+			\item The technologies we will be using like PHP, JavaScript, etc are well known languages in the programming world, making it easy to find programmers that can interpret existing code as well as add on to it.
+			
+			\item Logical errors can be difficult to trace in such huge systems, and can cause unnecessary dependencies on other components. Rather we will try to design components so that they are cohesive by having low coupling and thus reducing dependencies.
+		\end{itemize}
+		
+			Manageability is about how easy it is for the system administrators (tech team) to manage the application. This is important for key factors like monitoring systems, debugging and performance tuning. We will try to tackle this with the following approach:
+			\begin{itemize}
+				\item System logs should be backed up yearly, making sure that they are safely kept on a machine other than the server.
+				
+				\item We should capture and report sufficient information about errors and state changes in order to enable accurate monitoring, debugging, and management. Also, we should consider creating management packs that administrators can use in their monitoring environments to manage the application.
+				
+				\item We should be able to create snapshots of the system so that in case of system failure we can revert to the most recent system state instead of having lost all previous work.
+			\end{itemize}
+
 	\subsection{Use of reference architectures and frameworks}
 	
 	\subsection{Access and integration channels}
