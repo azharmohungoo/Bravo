@@ -204,7 +204,14 @@
 			\end{itemize}
 			
 			Performance is an indication of how responsive a system is and how it goes about in executing specific actions in a given time and interval. It can be measured by in terms of latency and throughput. Latency is the time taken to respond to any event. Throughput is the number of events that take place in a given amount of time. The application performance is directly proportional to its scalability. Thus lack of scalability can affect performance. This can be avoided by reducing the likelihood of contention for shared resources. The main factor affecting system performance is the demand for a specific action and the system’s response to the demand. Here are some key issues:
-
+			\begin{itemize}
+				\item We have to increase client response time, reduce throughput, and server resource over utilization. When communication must cross process or tier boundaries, we will have to consider using coarse-grained interfaces that require minimum number of calls to execute a specific task and we should asynchronous communication.
+				
+				\item •	We have to ensure that we have an efficient and appropriate caching strategy. This will help in overcome cache misses and improve data store (database) access.
+				
+				\item We will be looking at high performance communication between tiers using appropriate remote communication mechanisms. This will help decrease network bandwidth consumption. This will be done by reducing the number of transitions across boundaries and minimize the amount of data sent over the network. 
+				
+			\end{itemize}	
 	\subsection{Use of reference architectures and frameworks}
 	
 	\subsection{Access and integration channels}
