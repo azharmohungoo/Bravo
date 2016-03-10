@@ -209,6 +209,23 @@
 			
 			Performance is an indication of how responsive a system is and how it goes about in executing specific actions in a given time and interval. It can be measured by in terms of latency and throughput. Latency is the time taken to respond to any event. Throughput is the number of events that take place in a given amount of time. The application performance is directly proportional to its scalability. Thus lack of scalability can affect performance. This can be avoided by reducing the likelihood of contention for shared resources. The main factor affecting system performance is the demand for a specific action and the system’s response to the demand. Here are some key issues:
 
+			\begin{itemize}
+				\item We have to increase client response time, reduce throughput, and server resource over utilization. When communication must cross process or tier boundaries, we will have to consider using coarse-grained interfaces that require minimum number of calls to execute a specific task and we should asynchronous communication.
+				
+				\item We have to ensure that we have an efficient and appropriate caching strategy. This will help in overcome cache misses and improve data store (database) access.
+				
+				\item We will be looking at high performance communication between tiers using appropriate remote communication mechanisms. This will help decrease network bandwidth consumption. This will be done by reducing the number of transitions across boundaries and minimize the amount of data sent over the network. 
+			
+			\end{itemize}
+			Security is the ability of a system to decrease the chance of malicious or accidental actions outside of the designed usage affecting the system, and prevent disclosure or loss of information. The improvement of security can also increase the reliability of the system by minimising the chances of an attack succeeding and impairing system operation. Securing a system should protect data and prevent unauthorized access to or modification of information. The factors affecting system security are confidentiality, integrity, and availability. The features used to secure systems are authentication, encryption, auditing, and logging. The main issues are:
+			\begin{itemize}
+				\item Damage can be caused by malicious input such as SQL injections and cross-site scripting. We will be protecting the system by ensuring that we validate all input for length, range, format, and type of using the constrain, reject, and sanitize principles. We will be encoding all output that is displayed to users.
+				
+				\item  Spoofing of user identity can become a problem. We will be using authentication and authorisation to prevent this issue. We will have to identify trust boundaries and log and alert if users try to cross these boundaries.
+				
+				\item Data tampering. Partition the site into anonymous, identified, and authenticated users and use application instrumentation to log and expose behaviour that can be monitored. Also use secured transport channels, and encrypt and sign sensitive data sent across the network
+			\end{itemize}
+				
 	\subsection{Use of reference architectures and frameworks}
 	
 	\subsection{Access and integration channels}
