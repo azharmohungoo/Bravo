@@ -77,7 +77,17 @@
 	
 	\subsubsection{Architectural scope}
 		\begin{itemize}
-			\item stuffs
+			\item There needs to be a display infrastructure which will handle how results of processes or data is displayed to the end user.
+			\item There needs to be an infrastructure will can relay the system to the various mediums in will be used from (different browsers, andrioid).
+			\item There needs to be a processing infrastructure that will perform the methods of the system, and store the results in the persistence architecture if needed.
+			\item There needs be a reporting infrastructure to generate and store logs within the persistence infrastructure.
+			\item There needs be a persistence architecture. This architecture will hold data pertaining to all the persistent parts of the system, namely:
+			\begin{itemize}
+				\item User data (usernames, passwords, profile data, etc)
+				\item Group data (primary author, co-authors, paper, etc)
+				\item Paper data (location, type, published, etc)
+				\item Logs
+			\end{itemize}
 		\end{itemize}
 	
 	\subsection{Quality requirements}
@@ -149,6 +159,16 @@
 	\subsubsection{Three-tier architecture}
 	The three-tier architecture is a client-server software architecture pattern where the user interface (presentation), functional process logic(business rules), computer data storage and data access are developed and maintained as independent modules, most often on separate platforms.
 
+	Reasons to use three-tier architecture:
+	\begin{itemize}
+		\item In web development, three-tier is often used to refer to websites, commonly electronic commerce websites, which are built using three-tiers:
+		\begin{itemize}
+			\item A front-end web server. In web based application, front-end is the content rendered by the browser. The content may be static or generated dynamicially.
+			\item A middle dynamic content processing and generation level application server for example JavaEE, PHP, Python platfrom.
+			\item A back-end database or data store, comprising both data sets and the database management system software that manages and provides access to the data.
+		\end{itemize}
+	\end{itemize}
+
 	\subsection{Architectural tactics or strategies}
 	
 		Availability is best defined by the proportion of time a system is functional and working as required. It can be affected by system errors, infrastructure problems, malicious attacks and system load. Here are some key issues:
@@ -188,16 +208,16 @@
 	\subsection{Access and integration channels}
 	
 	\begin{itemize}
-		\item API's?
-		\item Simple Access Project Protocol (SOAP) is a protocol which allows programs that run on different operating system to communicate using HTTP and XML. It's platform and language independent. It's quite useful in handling asynchronous processing and supports many other protocols and technologies
+		\item Java Persistence API
+		\item Simple Access Project Protocol (SOAP) is a protocol which is platform and language independent and allows programs that run on different operating system to communicate using HTTP and XML. It's quite useful in handling asynchronous processing and supports many other protocols and technologies
 		\item The system will be accessible by using a web interface which is bootstraped to cater for all devices of different sizes
 		\item Access to the system will be provided using the HTTPS protocol to ensure security, along with IPsec (Internet Protocol Security) which will allow for a secure IP and to ensure that no malicious data is sent to the servers
-		\item WSDL (Web Service Definition Language)
-		\item IDL (Interactive Data Language)
-		\item PHP backend
-		\item MySQL database
-		\item RESTful web services
+		\item Web Service Definition Language (WSDL) will be used to describe the functionality and the operations provided by the web-based service
+		\item PHP along with MySQL API will be used to query the database
+		\item A RESTful web services API which will allow users to access the system without knowledge of what happens in the backend
 	\end{itemize}
+	
+	\subsection{Technologies}
 	
 	\newpage
 	
