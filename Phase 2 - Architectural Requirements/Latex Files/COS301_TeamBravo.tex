@@ -25,9 +25,12 @@
 	\input{coverPage.tex}
 	
 	\renewcommand{\thesection}{\arabic{section}}
+	
 	\newpage
 	
 	\tableofcontents
+	
+	\newpage
 	
 	\section{Introduction}
 	
@@ -205,6 +208,7 @@
 			\end{itemize}
 			
 			Performance is an indication of how responsive a system is and how it goes about in executing specific actions in a given time and interval. It can be measured by in terms of latency and throughput. Latency is the time taken to respond to any event. Throughput is the number of events that take place in a given amount of time. The application performance is directly proportional to its scalability. Thus lack of scalability can affect performance. This can be avoided by reducing the likelihood of contention for shared resources. The main factor affecting system performance is the demand for a specific action and the system’s response to the demand. Here are some key issues:
+<<<<<<< HEAD
 			\begin{itemize}
 				\item We have to increase client response time, reduce throughput, and server resource over utilization. When communication must cross process or tier boundaries, we will have to consider using coarse-grained interfaces that require minimum number of calls to execute a specific task and we should asynchronous communication.
 				
@@ -214,30 +218,12 @@
 				
 			\end{itemize}
 				Security is the ability of a system to decrease the chance of malicious or accidental actions outside of the designed usage affecting the system, and prevent disclosure or loss of information. The improvement of security can also increase the reliability of the system by minimising the chances of an attack succeeding and impairing system operation. Securing a system should protect data and prevent unauthorized access to or modification of information. The factors affecting system security are confidentiality, integrity, and availability. The features used to secure systems are authentication, encryption, auditing, and logging. The main issues are:
+=======
+
+>>>>>>> 80eff1b47d90d060a04ba1070bb27c9526f053d9
 	\subsection{Use of reference architectures and frameworks}
-	As the system will be using the Model View Controller (MVC) architecture ,it is important to make use of the Java EE platform which provides a runtime environment for developing and running large-scale ,multi-tiered and secure network applications. It also provides various frameworks which will be discussed below, for  utilising services for multi-tier applications that produces manageability and accessibility needed by the system.
-	
-	\subsubsection{Java Persistence API}
-	The java Persistence API provides services such as object/relational mapping(ORM) facility for managing relational data in Java application and it also allows relational database to be viewed as object-oriented database. The java persistence  consists of :
-	\begin{itemize}
-		\item Persistence API
-		\item The query language
-		\item ORM	
-	\end{itemize}
-	\subsubsection{ASP.NET MVC}
-	The ASP.NET MVC is a web application framework which implements the Model View Controller pattern. The ASP.NET MVC supports web pages ,web forms and MVC which is needed by the system.It supports all ASP.NET functionalities like data binding, user controls,master pages etc. Hence ASP.NET MVC framework is ideal for this system which use MVC architecture.
 	
 	\subsection{Access and integration channels}
-	
-	\begin{itemize}
-		\item Java Persistence API
-		\item Simple Access Project Protocol (SOAP) is a protocol which is platform and language independent and allows programs that run on different operating system to communicate using HTTP and XML. It's quite useful in handling asynchronous processing and supports many other protocols and technologies
-		\item The system will be accessible by using a web interface which is bootstraped to cater for all devices of different sizes
-		\item Access to the system will be provided using the HTTPS protocol to ensure security, along with IPsec (Internet Protocol Security) which will allow for a secure IP and to ensure that no malicious data is sent to the servers
-		\item Web Service Definition Language (WSDL) will be used to describe the functionality and the operations provided by the web-based service
-		\item PHP along with MySQL API will be used to query the database
-		\item A RESTful web services API which will allow users to access the system without knowledge of what happens in the backend
-	\end{itemize}
 	
 	\subsection{Technologies}
 	
