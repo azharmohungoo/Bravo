@@ -78,7 +78,17 @@
 	
 	\subsubsection{Architectural scope}
 		\begin{itemize}
-			\item stuffs
+			\item There needs to be a display infrastructure which will handle how results of processes or data is displayed to the end user.
+			\item There needs to be an infrastructure will can relay the system to the various mediums in will be used from (different browsers, andrioid).
+			\item There needs to be a processing infrastructure that will perform the methods of the system, and store the results in the persistence architecture if needed.
+			\item There needs be a reporting infrastructure to generate and store logs within the persistence infrastructure.
+			\item There needs be a persistence architecture. This architecture will hold data pertaining to all the persistent parts of the system, namely:
+			\begin{itemize}
+				\item User data (usernames, passwords, profile data, etc)
+				\item Group data (primary author, co-authors, paper, etc)
+				\item Paper data (location, type, published, etc)
+				\item Logs
+			\end{itemize}
 		\end{itemize}
 	
 	\subsection{Quality requirements}
@@ -150,8 +160,52 @@
 	\subsubsection{Three-tier architecture}
 	The three-tier architecture is a client-server software architecture pattern where the user interface (presentation), functional process logic(business rules), computer data storage and data access are developed and maintained as independent modules, most often on separate platforms.
 
+	Reasons to use three-tier architecture:
+	\begin{itemize}
+		\item In web development, three-tier is often used to refer to websites, commonly electronic commerce websites, which are built using three-tiers:
+		\begin{itemize}
+			\item A front-end web server. In web based application, front-end is the content rendered by the browser. The content may be static or generated dynamicially.
+			\item A middle dynamic content processing and generation level application server for example JavaEE, PHP, Python platfrom.
+			\item A back-end database or data store, comprising both data sets and the database management system software that manages and provides access to the data.
+		\end{itemize}
+	\end{itemize}
+
 	\subsection{Architectural tactics or strategies}
 	
+		Availability is best defined by the proportion of time a system is functional and working as required. It can be affected by system errors, infrastructure problems, malicious attacks and system load. Here are some key issues:
+		\begin{itemize}
+			\item The server on which the database is kept can fail or become unresponsive, causing the entire system to fail. We will have to consider how to design failover support in the system. For example, we can use Network Load Balancing for Web servers to distribute the load and prevent requests being directed to a server that is down. Also, consider using a RAID mechanism to mitigate system failure in the event of a disk failure.
+			
+			\item Denial of service attacks, which prevent authorised users from accessing the system, can interrupt operations if the system cannot handle massive loads in a correct and timely manner, often due to the processing time required, or network configuration and congestion. To minimize interruption from such attacks, identify malicious behaviour, use application instrumentation to expose unintended behaviour, and implement comprehensive data validation. We will consider using the Circuit Breaker or Bulkhead patterns to increase system resiliency.
+		\end{itemize}
+		
+		Conceptual integrity is the consistency and coherence of the overall design. This means that we have to be consistent in our various modules’ designs as well as coding styles and variable names. A coherent system is one that is easy to maintain because you will know what is consistent in the modules. Things to look at:
+		\begin{itemize}
+			\item Lack of collaboration and communication between different groups involved in the application lifecycle. We should establish a development process integrated with tools to facilitate process workflow, communication, and collaboration.
+			
+			\item Lack of design and coding standards. A guideline for design and coding standards should be made, and we can incorporate code reviews into our development process to ensure guidelines are followed.
+		\end{itemize}
+		
+		Maintainability is the ability of the system to undergo changes with a degree of ease. These changes could impact components, services, features, and interfaces when adding or changing the application’s functionality in order to fix errors, or to meet new business requirements. We will tackle this challenge in the following way:
+		\begin{itemize}
+			\item This documentation will serve as the basic requirements of the system which will make it easier to upgrade and maintain the system at all times.
+			
+			\item The technologies we will be using like PHP, JavaScript, etc are well known languages in the programming world, making it easy to find programmers that can interpret existing code as well as add on to it.
+			
+			\item Logical errors can be difficult to trace in such huge systems, and can cause unnecessary dependencies on other components. Rather we will try to design components so that they are cohesive by having low coupling and thus reducing dependencies.
+		\end{itemize}
+		
+			Manageability is about how easy it is for the system administrators (tech team) to manage the application. This is important for key factors like monitoring systems, debugging and performance tuning. We will try to tackle this with the following approach:
+			\begin{itemize}
+				\item System logs should be backed up yearly, making sure that they are safely kept on a machine other than the server.
+				
+				\item We should capture and report sufficient information about errors and state changes in order to enable accurate monitoring, debugging, and management. Also, we should consider creating management packs that administrators can use in their monitoring environments to manage the application.
+				
+				\item We should be able to create snapshots of the system so that in case of system failure we can revert to the most recent system state instead of having lost all previous work.
+			\end{itemize}
+			
+			Performance is an indication of how responsive a system is and how it goes about in executing specific actions in a given time and interval. It can be measured by in terms of latency and throughput. Latency is the time taken to respond to any event. Throughput is the number of events that take place in a given amount of time. The application performance is directly proportional to its scalability. Thus lack of scalability can affect performance. This can be avoided by reducing the likelihood of contention for shared resources. The main factor affecting system performance is the demand for a specific action and the system’s response to the demand. Here are some key issues:
+
 	\subsection{Use of reference architectures and frameworks}
 	As the system will be using the Model View Controller (MVC) architecture ,it is important to make use of the Java EE platform which provides a runtime environment for developing and running large-scale ,multi-tiered and secure network applications. It also provides various frameworks which will be discussed below, for  utilising services for multi-tier applications that produces manageability and accessibility needed by the system.
 	
@@ -168,16 +222,16 @@
 	\subsection{Access and integration channels}
 	
 	\begin{itemize}
-		\item API's?
-		\item Simple Access Project Protocol (SOAP) is a protocol which allows programs that run on different operating system to communicate using HTTP and XML. It's platform and language independent. It's quite useful in handling asynchronous processing and supports many other protocols and technologies
+		\item Java Persistence API
+		\item Simple Access Project Protocol (SOAP) is a protocol which is platform and language independent and allows programs that run on different operating system to communicate using HTTP and XML. It's quite useful in handling asynchronous processing and supports many other protocols and technologies
 		\item The system will be accessible by using a web interface which is bootstraped to cater for all devices of different sizes
 		\item Access to the system will be provided using the HTTPS protocol to ensure security, along with IPsec (Internet Protocol Security) which will allow for a secure IP and to ensure that no malicious data is sent to the servers
-		\item WSDL (Web Service Definition Language)
-		\item IDL (Interactive Data Language)
-		\item PHP backend
-		\item MySQL database
-		\item RESTful web services
+		\item Web Service Definition Language (WSDL) will be used to describe the functionality and the operations provided by the web-based service
+		\item PHP along with MySQL API will be used to query the database
+		\item A RESTful web services API which will allow users to access the system without knowledge of what happens in the backend
 	\end{itemize}
+	
+	\subsection{Technologies}
 	
 	\newpage
 	
